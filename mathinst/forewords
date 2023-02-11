@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<title>
+Leviticus' Website
+</title>
+</head>
+
+<body>
+
+<h1>
+Forewords
+</h1>
+
+<address>
+<a href="../index.php">leviticusrhoden.com Homepage</a>
+</address>
+<address>
+<a href="mathinst.php">Back to Table of Contents</a>
+</address>
+
+<h2>
+Foreword to the Foreword
+</h2>
+<p>
+For me to write after. todo.
+</p><br><br>
+
+<h2>
+Foreword
+</h2>
+<p>
+'Mathematics are now become a popular Study, and make a part of the education of almost every Gentleman.'
+</p><p>
+Thus Stone began the preface to his translation of Nicolas Bion's master-work over two hundred years ago, and thus today, but loss neatly, speak our Ministers of Eductaion, our Commissions, our Pundits and our Authorities.
+</p><p>
+Nicolas Bion...
+</p><br><br>
+
+<h2>
+Examples of Embedding
+</h2>
+<p>
+<a href="hostingpi.php">A link example, can be put inside paragraphs of text.</a>
+</p>
+<address>
+<a href="hostingpi.php">A link example, but it's centered!</a>
+</address>
+<br><br>
+<img src="https://media.giphy.com/media/B7eXvaDYdHv8NDTM0v/giphy.gif" width="560px" class="center">
+<figcaption>
+Figure 1, A .gif of a fluid simulation I programmed. If you look closely you can see it did not work!
+</figcaption><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CUZq7yudbSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figcaption>
+Figure 2, One of my best YouTube videos! Embedding it on your own is a pain, but YouTube has a handy html generator function, so it takes care of it all. Both img and iframe are centered in the styles.css file.
+</figcaption>
+<br><br>
+
+<address>
+<a href="../index.php">leviticusrhoden.com Homepage</a>
+</address>
+<address>
+<a href="styleguide.php">Back to Style Guide (replace with parent page)</a>
+</address>
+
+</body>
+
+</html>
