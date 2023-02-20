@@ -42,7 +42,7 @@ Paragraph 2. This one I made longer to showcase how it drops down a line, it's q
 Examples of Embedding
 </h2>
 <p>
-<a href="hostingpi.php">A link example, can be put inside paragraphs of text.</a>
+<a href="https://lorenzanamarcus.medium.com/how-to-update-a-non-wordpress-site-in-bluehost-with-git-and-github-webhooks-fc568d1fe9ce">Website that helped set up this github!</a>
 </p>
 <address>
 <a href="hostingpi.php">A link example, but it's centered!</a>
