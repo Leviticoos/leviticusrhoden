@@ -9,7 +9,7 @@ Rhoden Wedding
 Emma & Levi Rhoden
 </h1>
 
-<link href="../css/weddingstyle.css" rel="stylesheet" type="text/css">
+<link href="../css/weddingstyles.css" rel="stylesheet" type="text/css">
 
 <address>
 <a href="../index.php">leviticusrhoden.com Homepage</a>
