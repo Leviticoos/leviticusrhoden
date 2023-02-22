@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>
-Rhoden's Wedding
+Rhoden Wedding
 </title>
 </head>
 
@@ -13,6 +13,9 @@ Emma & Levi Rhoden
 
 <address>
 <a href="../index.php">leviticusrhoden.com Homepage</a>
+</address>
+<address>
+    <a href="">Itinerary</a>
 </address>
 
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
