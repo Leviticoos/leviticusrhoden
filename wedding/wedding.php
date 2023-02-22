@@ -21,13 +21,11 @@ Emma & Levi Rhoden
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
 
 <h2>
-First subheading, often Introduction
+Table of Contents
 </h2>
-<p>
-First Paragraph. This is meant to be a copy and paste-able file so I can use the same code to make a page and embed stuff in it. Essentially, it's where I test out any code I want to use.
-</p><p>
-Second paragraph, notice the double line break after.
-</p><br><br>
+<dd><a href="itinerary.php">Itinerary</a></dd>
+<dd><a href="directions.php">Directions</a></dd>
+<br><br>
 
 <h2>
 Another Subheading
