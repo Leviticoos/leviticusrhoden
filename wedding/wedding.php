@@ -6,7 +6,7 @@ Rhoden Wedding
 </head>
 
 <h1>
-Emma & Levi Rhoden TESTTTTE
+Emma & Levi Rhoden
 </h1>
 
 <link href="../css/weddingstyles.css" rel="stylesheet" type="text/css">
