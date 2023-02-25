@@ -23,7 +23,7 @@ Emma & Levi Rhoden
 <h2>
 Table of Contents
 </h2>
-<dd><address href="#itinerary">Itinerary</address></dd>
+<dd><a href="#itinerary">Itinerary</a></dd>
 <dd><address href="#directions">Directions</address></dd>
 <br><br>
 
