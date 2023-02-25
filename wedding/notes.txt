@@ -1,0 +1,12 @@
+R97 G08 B34 ;Maroon
+R228 G197 B196 ;Pink
+R207 G183 B91 ;Gold
+
+RSVP
+Directions
+Itinerary
+Photos
+The Plot of our Hallmark Movie
+Wedding Party Members
+Hotels
+Registry
