@@ -53,6 +53,38 @@ Engagement photos, and maybe eventually our wedding photos!
 </p>
 <br><br>
 
+<h1 id="hallmark">
+The Plot of our Hallmark Movie
+</h1>
+<p>
+
+</p>
+<br><br>
+
+<h1 id="party">
+Wedding Party Members
+</h1>
+<p>
+
+</p>
+<br><br>
+
+<h1 id="hotels">
+Hotels
+</h1>
+<p>
+
+</p>
+<br><br>
+
+<h1 id="registry">
+Registry
+</h1>
+<p>
+
+</p>
+<br><br>
+
 </body>
 
 </html>
