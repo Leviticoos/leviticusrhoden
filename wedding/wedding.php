@@ -14,7 +14,7 @@ Emma & Levi Rhoden
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
 
 <dl>
-<dd><address href="#rsvp">RSVP</address></dd>
+<dt><address href="#rsvp">RSVP</address></dt>
 <dd><address href="#directions">Directions</address></dd>
 <dd><address href="#itinerary">Itinerary</address></dd>
 <dd><address href="#photos">Photos</address></dd>
