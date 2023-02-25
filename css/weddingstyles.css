@@ -3,10 +3,10 @@ h1 {text-align: center; color: #750303;}
 h2 {text-align: center; color: #1E064B;}
 h3 {text-align: left; color: #1E064B;}
 p {text-align: justify; color: #1E064B; text-indent:40px;}
-dl {text-align: left; color: #1E064B;}
+dl {text-align: center; color: #1E064B;}
 dt {text-align: center; color: #1E064B;}
 dd {text-align: center; color: #1E064B;}
-a {color: #1E064B;}
+a {text-align: center; color: #1E064B;}
 img {max-width: 100%;
     display: block;
     height: auto; 
