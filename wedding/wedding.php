@@ -14,14 +14,14 @@ Emma & Levi Rhoden
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
 
 <dl>
-<dt><address href="#rsvp">RSVP</address></dt>
-<dd><address href="#directions">Directions</address></dd>
-<dd><address href="#itinerary">Itinerary</address></dd>
-<dd><address href="#photos">Photos</address></dd>
-<dd><address href="#hallmark">The Plot of our Hallmark Movie</address></dd>
-<dd><address href="#party">Wedding Party Members</address></dd>
-<dd><address href="#hotels">Hotels</address></dd>
-<dd><address href="#registry">Registry</address></dd>
+<dt><address><a href="#rsvp">RSVP</a></address></dt>
+<dt><address><a href="#directions">Directions</a></address></dt>
+<dt><address><a href="#itinerary">Itinerary</a></address></dt>
+<dt><address><a href="#photos">Photos</a></address></dt>
+<dt><address><a href="#hallmark">The Plot of our Hallmark Movie</a></address></dt>
+<dt><address><a href="#party">Wedding Party Members</a></address></dt>
+<dt><address><a href="#hotels">Hotels</a></address></dt>
+<dt><address><a href="#registry">Registry</a></address></dt>
 </dl>
 <br><br>
 
@@ -30,9 +30,8 @@ Itinerary
 </h2>
 <p>
 HEY Y"ALL WE GETTING MARRIED, ON A DAY OR SOMETHING IDK.
-</p><p>
-Paragraph 2. This one I made longer to showcase how it drops down a line, it's quite interesting. Also appreciate <a href="hostingpi.php">this link</a> as an example of link html. Remember to put a <b>../</b> in the address for each step back in the directories you need to go from the current page before you can go down a branch to the page you want.
-</p><br><br>
+</p>
+><br><br>
 
 <h2>
 Examples of Embedding
