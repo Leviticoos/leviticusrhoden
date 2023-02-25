@@ -23,15 +23,15 @@ Emma & Levi Rhoden
 <h2>
 Table of Contents
 </h2>
-<dd><a href="itinerary.php">Itinerary</a></dd>
-<dd><a href="directions.php">Directions</a></dd>
+<dd><a href="#itinerary">Itinerary</a></dd>
+<dd><a href="#directions">Directions</a></dd>
 <br><br>
 
-<h2>
-Another Subheading
+<h2 id="itinerary">
+Itinerary
 </h2>
 <p>
-Paragraph 1.
+HEY Y"ALL WE GETTING MARRIED, ON A DAY OR SOMETHING IDK.
 </p><p>
 Paragraph 2. This one I made longer to showcase how it drops down a line, it's quite interesting. Also appreciate <a href="hostingpi.php">this link</a> as an example of link html. Remember to put a <b>../</b> in the address for each step back in the directories you need to go from the current page before you can go down a branch to the page you want.
 </p><br><br>
