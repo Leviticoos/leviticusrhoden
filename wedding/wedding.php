@@ -13,9 +13,7 @@ Emma & Levi Rhoden
 
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
 
-<h1>
-Table of Contents
-</h1>
+<dl>
 <dd><address href="#rsvp">RSVP</address></dd>
 <dd><address href="#directions">Directions</address></dd>
 <dd><address href="#itinerary">Itinerary</address></dd>
@@ -24,6 +22,7 @@ Table of Contents
 <dd><address href="#party">Wedding Party Members</address></dd>
 <dd><address href="#hotels">Hotels</address></dd>
 <dd><address href="#registry">Registry</address></dd>
+</dl>
 <br><br>
 
 <h2 id="itinerary">
