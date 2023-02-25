@@ -5,9 +5,6 @@ Rhoden Wedding
 </title>
 </head>
 <body>
-<h1>
-Emma & Levi Rhoden
-</h1>
 
 <link href="../css/weddingstyles.css" rel="stylesheet" type="text/css">
 
@@ -25,32 +22,32 @@ Emma & Levi Rhoden
 </dl>
 <br><br>
 
-<h2 id="rsvp">
+<h1 id="rsvp">
 RSVP
-</h2>
+</h1>
 <p>
 
 </p>
 <br><br>
 
-<h2 id="directions">
+<h1 id="directions">
 Directions
-</h2>
+</h1>
 <p>
 You can drive there! Not much else. Reach out to us if you need/can offer to drive for a carpool.
 </p>
 
-<h2 id="itinerary">
+<h1 id="itinerary">
 Itinerary
-</h2>
+</h1>
 <p>
 HEY Y"ALL WE GETTING MARRIED, ON A DAY OR SOMETHING IDK.
 </p>
 <br><br>
 
-<h2 id="photos">
+<h1 id="photos">
 Photos
-</h2>
+</h1>
 <p>
 Engagement photos, and maybe eventually our wedding photos!
 </p>
