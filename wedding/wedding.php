@@ -16,8 +16,14 @@ Emma & Levi Rhoden
 <h1>
 Table of Contents
 </h1>
-<dd><a href="#itinerary">Itinerary</a></dd>
+<dd><address href="#rsvp">RSVP</address></dd>
 <dd><address href="#directions">Directions</address></dd>
+<dd><address href="#itinerary">Itinerary</address></dd>
+<dd><address href="#photos">Photos</address></dd>
+<dd><address href="#hallmark">The Plot of our Hallmark Movie</address></dd>
+<dd><address href="#party">Wedding Party Members</address></dd>
+<dd><address href="#hotels">Hotels</address></dd>
+<dd><address href="#registry">Registry</address></dd>
 <br><br>
 
 <h2 id="itinerary">
