@@ -20,11 +20,11 @@ Emma & Levi Rhoden
 
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
 
-<h1>
+<h2>
 Table of Contents
-</h1>
-<dd><a href="#itinerary">Itinerary</a></dd>
-<dd><a href="#directions">Directions</a></dd>
+</h2>
+<dd><address href="#itinerary">Itinerary</address></dd>
+<dd><address href="#directions">Directions</address></dd>
 <br><br>
 
 <h2 id="itinerary">
