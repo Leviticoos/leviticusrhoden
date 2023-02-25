@@ -11,19 +11,12 @@ Emma & Levi Rhoden
 
 <link href="../css/weddingstyles.css" rel="stylesheet" type="text/css">
 
-<address>
-<a href="../index.php">leviticusrhoden.com Homepage</a>
-</address>
-<address>
-    <a href="">Itinerary</a>
-</address>
-
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
 
-<h2>
+<h1>
 Table of Contents
-</h2>
-<dd><a href="#itinerary">Itinerary</a></dd>
+</h1>
+<dd><a href="#itinerary">Itinerary</address></dd>
 <dd><address href="#directions">Directions</address></dd>
 <br><br>
 
