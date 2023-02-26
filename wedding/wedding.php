@@ -11,7 +11,7 @@ Rhoden Wedding
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
 
 <dl>
-<dt><address><a href="#rsvp">RSVP</a></address></dt>
+<dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
 <dt><address><a href="#directions">Directions</a></address></dt>
 <dt><address><a href="#itinerary">Itinerary</a></address></dt>
 <dt><address><a href="#photos">Photos</a></address></dt>
