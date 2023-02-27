@@ -85,12 +85,13 @@ Registry
 </p>
 <br><br>
 
+<!--  from https://www.w3schools.com/howto/howto_js_countdown.asp -->
 <!-- Display the countdown timer in an element -->
-<p id="demo"></p>
+<dt id="demo"></dt>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+var countDownDate = new Date("Dec 2, 2023 12:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
