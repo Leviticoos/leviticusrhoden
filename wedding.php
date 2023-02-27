@@ -10,6 +10,9 @@ Rhoden Wedding
 
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
 
+<!-- Display the countdown timer in an element -->
+<dt id="demo" style="font-size: 32pt;"></dt>
+
 <dl>
 <dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#directions">Directions</a></address></dt>
@@ -86,9 +89,6 @@ Registry
 <br><br>
 
 <!--  from https://www.w3schools.com/howto/howto_js_countdown.asp -->
-<!-- Display the countdown timer in an element -->
-<dt id="demo"></dt>
-
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Dec 2, 2023 12:30:00").getTime();
