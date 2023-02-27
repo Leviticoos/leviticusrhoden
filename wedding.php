@@ -8,7 +8,12 @@ Rhoden Wedding
 
 <link href="/css/weddingstyles.css" rel="stylesheet" type="text/css">
 
+<!-- Display the countdown timer in an element -->
+<dt id="demo" style="font-size: 32pt;"></dt>
+
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">
+
+
 
 <dl>
 <dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
