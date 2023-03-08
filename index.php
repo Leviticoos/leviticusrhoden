@@ -1,7 +1,7 @@
 <html>
 <!page has been copy edited oct 2022>
 <head>
-<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 <title>
 Leviticus' Website
 </title>
@@ -13,7 +13,7 @@ Leviticus' Website
 Leviticus' Website
 </h1>
 
-<img src="../photos/me.jpg" alt="Who is this handsome fella? I'd love to give him a job or something!" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="photos/me.jpg" alt="Who is this handsome fella? I'd love to give him a job or something!" style="display: block; margin-left: auto; margin-right: auto;">
 
 <address><a href = "mailto: levi@leviticusrhoden.com">Send Me an E-Mail!</a></address>
 

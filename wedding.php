@@ -6,12 +6,12 @@ Rhoden Wedding
 </head>
 <body>
 
-<link href="/css/weddingstyles.css" rel="stylesheet" type="text/css">
+<link href="css/weddingstyles.css" rel="stylesheet" type="text/css">
 
 <!-- Display the countdown timer in an element -->
 <dt id="demo" style="font-size: 32pt;"></dt>
 
-<img src="/photos/pikachu_construction.gif" width="300px" class="center">
+<img src="photos/pikachu_construction.gif" width="300px" class="center">
 
 
 
