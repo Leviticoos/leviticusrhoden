@@ -15,7 +15,7 @@ How I Develop B&W Film
 <a href="../index.php">leviticusrhoden.com Homepage</a>
 </address>
 <address>
-<a href="/cameras/cameras.php">Back to Cameras</a>
+<a href="cameras.php">Back to Cameras</a>
 </address>
 
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">

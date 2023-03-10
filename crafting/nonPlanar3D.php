@@ -15,7 +15,7 @@ COMING SOON: Non Planar 3D Printing
 <a href="../index.php">leviticusrhoden.com Homepage</a>
 </address>
 <address>
-<a href="/crafting.php">Back to Crafting</a>
+<a href="crafting.php">Back to Crafting</a>
 </address>
 
 
@@ -75,9 +75,20 @@ So what would that look like? Well, lets imagine we want a curvy plane at the to
     The outcome is absolutely better than I could have hoped for! Not only did it turn normal Cura Gcode into a wibbly wobbly code:
 </p>
 <!-- TODO image of normal and wavy side by side -->
+<br>
+<img src="photos/camera_roll_mechanism.jpg" alt="A few long arms, a rachet, and a small arm that stops a cam from turning." style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption>
+    See that? That surface sucks!
+</figcaption><br><br>
 <p>
     But it can also cary over ironing, giving us a very smooth, math function defined surface! The fact that you can take an ironing enabled cura Gcode and make it non-Planar, while the smoothness of the ironing still shines through is amazing. Look how shiny that is!
 </p>
+<!-- TODO image of the ironed, wavey top. Lookin good! -->
+<br>
+<img src="photos/camera_roll_mechanism.jpg" alt="A few long arms, a rachet, and a small arm that stops a cam from turning." style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption>
+    See that? That surface sucks!
+</figcaption><br><br>
 <p>
     If you're looking to use this yourlesf, I made <a href="https://github.com/Leviticoos/nonPlanarPrinting">this spiffy code</a> put up on github, particulary non-Planar-GCODE-converter-2.ipynb. This code has a lot of, well it's just a lot. But, I have put a comment with <i>PARAMETER</i> with everything you need to set up to use it. A simple ctrt-f should bring you to everything you might want to adjust to use this code. It's just a python notebook, that needs accses to a Gcode file, and it'll spit out a new Gcode file. As always, feel free to shoot me an email if you have questions, want to use it for something specific, or have questions!
 </p>
