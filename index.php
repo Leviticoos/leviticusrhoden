@@ -39,11 +39,11 @@ Leviticus' Website
     <dd>-<a href="pwhresearch/shaker.php"> Oil Bath Shaker</a></dd>
     <dd>-<a href="pwhresearch/whatispwh.php"> What is Pilot Wave Hydrodynamics?</a></dd><br>
 <dt><a href="cameras/cameras.php">Cameras and Optics</a></dt>
-    <dd>-<a href='cameras/developing.php'>COMING SOON: How I Develop B&W Film</a></dd>
+    <dd>-<a href='cameras/developing.php'>How I Develop B&W Film</a></dd>
     <dd>-<a href="cameras/digichrome.php"> WIP Digichrome</a></dd>
     <dd>-<a href="cameras/OM-1 Camera.php"> COMING SOON OM-1 Camera</a></dd>
     <dd>-<a href="cameras/pony_135_tuneup.php"> Pony 135 Tuneup</a></dd>
-    <dd>-<a href="cameras/thinlenssim.php"> COMING SOON Python Thin Lens Simulator</a></dd>
+    <dd>-<a href="cameras/thinlenssim.php"> Python Thin Lens Simulator</a></dd>
     <br>
 <dt><a href="website/website.php">Website</a></dt>
     <dd>-<a href="website/example.php"> Example Page</a></dd>
@@ -55,6 +55,10 @@ Leviticus' Website
 <h2>
     Chronological Order
 </h2>
+<dt><a href="cameras/developing.php">How I Develop B&W Film</a></dt>
+    <dd>- Dec 2022</dd>
+<dt><a href="cameras/thinlenssim.php">Thin Lens Simulator</a></dt>
+    <dd>- Dec 2022</dd>
 <dt><a href="crafting/recordplayer2.php">Record Player Platter</a></dt>
     <dd>- July 24th, 2022</dd>
 <dt><a href="cameras/pony_135_tuneup.php">Pony 135 Tuneup</a></dt>

@@ -22,7 +22,7 @@ Cameras
 </p><br><br>
 
 <h2>
-    <a href="developing.php">COMING SOON: How I Develop B&W Film</a>
+    <a href="developing.php">How I Develop B&W Film</a>
 </h2>
 <p>
     Here I go into the steps I follow to develop B&W film, as well as some past sucsesses and failures and what they taught me.
@@ -43,7 +43,7 @@ This page will eventually tell the story of digichrome, my attempt at making a s
 </p><br><br>
 
 <h2>
-<a href="thinlenssim.php">COMING SOON: Thin Lens Simulator</a>
+<a href="thinlenssim.php">Thin Lens Simulator</a>
 </h2>
 <p>
 A thin lens simulator? Well, it would be thick lens, if I had more data on the lenses I was considering purchasing. No matter, this is a good starting point, and it'll hopefully be helpful to someone else! Not to mention, I feel like I've stumbled upon a new way to look at thin lenses.
