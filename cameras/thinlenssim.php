@@ -18,8 +18,6 @@ Thin Lens Optics Simulation in Python
 <a href="cameras.php">Back to Cameras</a>
 </address>
 
-<img src="/photos/pikachu_construction.gif" width="300px" class="center">
-
 <h2>
 Introduction
 </h2>
