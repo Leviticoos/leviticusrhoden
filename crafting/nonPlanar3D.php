@@ -24,49 +24,58 @@ COMING SOON: Non Planar 3D Printing
 How Does 3D Printing Normally Work?
 </h2>
 <p>
-    3D printing usually works by putting down 2D layers of plastic that are thin enough they form a 3D facsimile. But this method means you can end up with stair step like tops, depending on how fine the details you want in the top layer. This terrance syle happended to hinder the P.W.H. work I was doing, so I had to find a way to smooth the top out. 
-</p><p>
-We are working on depths that change by mere millimeters, and in general 3D printing would give one terrace per 0.2mm, and we couldn't have a depth that's not in those 0.2mm increments. To fix this, we want to print the top as only one layer, where 
+    3D printing usually works by putting down 2D layers of plastic that are thin enough they form a 3D facsimile. Usually, this makes a fine object, that while it has some layer lines, it is a fantastic 3D object. However, I wanted a funky fresh curved surface. Something that wasn't just flat, or a terrace like facsimile of curvy, like below.
+</p><br>
+<img src="photos/camera_roll_mechanism.jpg" alt="A few long arms, a rachet, and a small arm that stops a cam from turning." style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption>
+    See that? That surface sucks!
+</figcaption><br><br>
+<p>
+    eeeee
 </p><br><br>
 
 <h2>
-Another Subheading
+What Can We Do?
 </h2>
 <p>
-Paragraph 1.
+To make a 3D print that avoids terracing, we need to make our slices non-planar. While a smart person would make a ground up slicer, that is code that takes an STL file and turns it into non-planar GCODE. But that's hard! You have to figure out infill and shtuff, no thanks! So we got to be smart, and do our darndest to ride on cura's coattails. Have cura calculate walls and infills and extrusion rates, and we only focus on the non-planar aspects.
 </p><p>
-Paragraph 2. This one I made longer to showcase how it drops down a line, it's quite interesting. Also appreciate <a href="hostingpi.php">this link</a> as an example of link html. Remember to put a <b>../</b> in the address for each step back in the directories you need to go from the current page before you can go down a branch to the page you want.
+So what would that look like? Well, lets imagine we want a curvy plane at the top of a cube. We very well can't have our printer lay down a wavey bottom layer, so we have to interpolate from a flat surface at layer one to our desired surface. From here on out, I'll be using the term <i>Layer Surface</i> We also need to change the rate of extrusion, to adjust for the increase or decrease in volume. All of these will be looked at in their own section, and then I will show and share the final results, which you can skip to <a href="#code">here.</a>
 </p><br><br>
 
 <h2>
-Examples of Embedding
+    Interpolation Between Layer Surfaces
 </h2>
 <p>
-<a href="hostingpi.php">A link example, can be put inside paragraphs of text.</a>
+    The code I've writen has the option to define 3 layer surfaces, although the first layer better be zero delta, or I guess whatever your printbed surface is. Which it BETTER BE FLAT. You also set the height you want to be that surface. Ok, should probably define some things now. the height <i>z</i> of a point is the height in the origonal, planar .Gcode file. Then that height, along with the x and y position, returns a change from that height, a <i>dz</i>. So the layer surfaces augment the original height <i>z</i> by a factor <i>dz</i>. But of course, we can't just change between the layer surfaces, we have to transition between them. So we set <i>h2</i> and <i>h3</i> as the heights we want our print to reach layer surface 2 and 3 respectivly. Then we slowly change the between the diffrent defined layer surfaces, until we have transitioned from one two another. While I could write a ton try to explain this more, I think a picture will show more.
+</p><br>
+<img src="photos/camera_roll_mechanism.jpg" alt="A few long arms, a rachet, and a small arm that stops a cam from turning." style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption>
+    See that? That surface sucks!
+</figcaption><br><br>
+<p>
+    This is where I explain the photo more, tbd.
 </p>
-<address>
-<a href="hostingpi.php">A link example, but it's centered!</a>
-</address>
-<br><br>
 
-<img src="/web/20220323015114im_/http://leviticusrhoden.com/crafting/photos/camera_roll_mechanism.jpg" alt="A few long arms, a rachet, and a small arm that stops a cam from turning." style="display: block; margin-left: auto; margin-right: auto;">
+<h2>
+    Extrusion Rate
+</h2>
+<p>
+    Our other big problem is extrusion rate. Thankfully, we let Cura do most of the heavy lifting here as well. We know what it thinks the right amount to extrude is! We can also backtrack to calculate the volume of that area, simply by multiplying distance by layer height. We can also aproximate our new print volume, treating our movement as a trapazoid. See the image below for details, but the long and short of it is we can find the ratio of our new volume and the origonal cura volume. Then, we multiply the cura extrusion over the cura volume, which gives us a factor we can multiply by our new volume to get our new extrusion!
+</p><br>
+<img src="photos/camera_roll_mechanism.jpg" alt="A few long arms, a rachet, and a small arm that stops a cam from turning." style="display: block; margin-left: auto; margin-right: auto;">
 <figcaption>
-    An example of an embeded image that I resize to either 350px or 500px wide, to save space, bandwidth, and so I don't have to mess with scaling html-side.
+    See that? That surface sucks!
 </figcaption><br><br>
 
-<img src="/web/20220323015114im_/http://leviticusrhoden.com/photos/pikachu_construction.gif" width="300px" class="center">
+<h2 id="code">
+    The Final Product
+</h2>
+<p>
+    Throwing this all together, I got <a href="TDODO Git">this spiffy code</a> put up on github.
+</p>
 
-<figcaption>An important gif to let the people know a page is unfinished.</figcaption>
 
-<img src="https://web.archive.org/web/20220323015114im_/https://media.giphy.com/media/B7eXvaDYdHv8NDTM0v/giphy.gif" width="560px" class="center">
-<figcaption>
-Figure 1, A .gif of a fluid simulation I programmed. If you look closely you can see it did not work!
-</figcaption><br><br>
-<iframe width="560" height="315" src="https://web.archive.org/web/20220323015114if_/https://www.youtube.com/embed/CUZq7yudbSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<figcaption>
-Figure 2, One of my best YouTube videos! Embedding it on your own is a pain, but YouTube has a handy html generator function, so it takes care of it all. Both img and iframe are centered in the styles.css file.
-</figcaption>
-<br><br>
 
 <address>
 <a href="/index.php">leviticusrhoden.com Homepage</a>
