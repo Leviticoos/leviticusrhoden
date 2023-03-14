@@ -7,7 +7,7 @@ Rhoden Wedding
 <body>
 
 <link href="css/weddingstyles.css" rel="stylesheet" type="text/css">
-
+<font size="+2">
 <!-- Display the countdown timer in an element -->
 <dt id="demo" style="font-size: 32pt;"></dt>
 
@@ -124,6 +124,7 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+</font>
 </script>
 
 </body>
