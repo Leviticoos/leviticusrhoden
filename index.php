@@ -59,6 +59,8 @@ Leviticus' Website
     <dd>- Dec 2022</dd>
 <dt><a href="cameras/thinlenssim.php">Thin Lens Simulator</a></dt>
     <dd>- Dec 2022</dd>
+<dt><a href='crafting/3d_minis.php'>3D Printing D&D Minis</a></dt>
+    <dd>- Sept 2022</dd>
 <dt><a href="crafting/recordplayer2.php">Record Player Platter</a></dt>
     <dd>- July 24th, 2022</dd>
 <dt><a href="cameras/pony_135_tuneup.php">Pony 135 Tuneup</a></dt>
