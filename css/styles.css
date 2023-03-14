@@ -18,3 +18,9 @@ blockquote {text-align: justify; color: #1E064B;margin: 80px;}
 math {text-align: center; color: #1E064B;margin: 80px; font-size:21px;} 
 address {text-align:center;}
 form {text-align:center;}
+
+/*Trying out phone friendly shit */
+/* the margins on this make it hard to read on small screens. Remove the margins on small screens.*/
+@media screen and (max-width: 500px) {
+    figcaption {margin-left:0%; margin-right:0%;} 
+}
