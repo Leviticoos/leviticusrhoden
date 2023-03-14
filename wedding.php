@@ -11,10 +11,6 @@ Rhoden Wedding
 <!-- Display the countdown timer in an element -->
 <dt id="demo" style="font-size: 32pt;"></dt>
 
-<img src="photos/pikachu_construction.gif" width="300px" class="center">
-
-
-
 <dl>
 <dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#directions">Directions</a></address></dt>
@@ -31,7 +27,7 @@ Rhoden Wedding
 RSVP
 </h1>
 <p>
-
+We have not set up an RSVP yet, but stay tuned!
 </p>
 <br><br>
 
@@ -39,14 +35,22 @@ RSVP
 Directions
 </h1>
 <p>
-You can drive there! Not much else. Reach out to us if you need/can offer to drive for a carpool.
+  If you are looking for timing of things, please jump to <a href="#itinerary">the itinerary</a>, but if you're hoping into a car and are about to start an argument while trying to remember where you're going next, here are the addresses!
 </p>
+<p>
+  First, we are having our ceremony at the very pretty <a href="https://goo.gl/maps/rW78RwH3E3EJwyPn7">Snohomish United Methodist Church</a> at 12:30! It's a nice drive north of both Seattle and Levi's parents house.
+</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2672.7882575412013!2d-122.1022207846582!3d47.940479379208256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549aa982b7207fe1%3A0xba55f81073e14a92!2sSnohomish%20United%20Methodist%20Church!5e0!3m2!1sen!2sus!4v1678817193956!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<p>
+Our reception will be held at the lovely <a href="https://goo.gl/maps/iKdSjHkyPrbB6HsE7">Sadie Lake Events</a>! We will drive there after the ceremony, which should wrap up around 1:30, and the drive is about 30 minutes.
+</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.557367009776!2d-122.22825558465013!3d48.138058879223486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485513e2dd7cfbf%3A0x4fcb498450d0912!2sSadie%20Lake%20Events!5e0!3m2!1sen!2sus!4v1678816463240!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <h1 id="itinerary">
 Itinerary
 </h1>
 <p>
-HEY Y"ALL WE GETTING MARRIED, ON A DAY OR SOMETHING IDK.
+Our wedding will be held on Saturday December 2nd, year of our Lord 2023. We will start things off at <a href="https://goo.gl/maps/rW78RwH3E3EJwyPn7">Snohomish United Methodist Church</a>, 12:30.
 </p>
 <br><br>
 
