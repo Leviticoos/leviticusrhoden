@@ -96,6 +96,8 @@ Registry
 </p>
 <br><br>
 
+</font>
+
 <!--  from https://www.w3schools.com/howto/howto_js_countdown.asp -->
 <script>
 // Set the date we're counting down to
@@ -123,10 +125,9 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Emma & Levi are Now Married! I Love You My Dear Wife!";
   }
 }, 1000);
-</font>
 </script>
 
 </body>
