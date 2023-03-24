@@ -28,7 +28,7 @@ Leviticus' Website
 <br><br>
 
 <h2>What settup do I have?</h2>
-<p> I belive I have a <b>4.2.x</b> board thanks to <a href="https://www.youtube.com/watch?v=P42dO3ygWOE">this mans.</a> I have a "c" on my SD slot, meaning I have <b>
+<p> I belive I have a <b>4.2.x</b> board thanks to <a href="https://www.youtube.com/watch?v=P42dO3ygWOE">this mans.</a> I have a "c" on my SD slot, meaning I have <b>HR4988 stepper control boards</b> thanks to <a href='https://support.th3dstudio.com/helpcenter/creality-v4-2-x-board-driver-codes/'>this page.</a> I also have broken firmware prone to thermal runaway and other problems!
 
 <address>
 <a href="/index.php">leviticusrhoden.com Homepage</a>
