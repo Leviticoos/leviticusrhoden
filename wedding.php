@@ -76,7 +76,7 @@ The Plot of our Hallmark Movie
 Wedding Party Members
 </h1>
 <p>
-
+THEY HAVEN"T SENT ME PHOTOS YET! NOT COOL Y"ALL!
 </p>
 <br><br>
 

@@ -72,6 +72,10 @@ This was my second roll with the Olympus OM-1, and stuff started turning out gre
 <p>
     This roll was my very first attempt at film photography, and it worked!
 </p>
+<img src="./photos/1-2.png" alt="A few long arms, a rachet, and a small arm that stops a cam from turning." style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption>
+    An example of an embeded image that I resize to either 350px or 500px wide, to save space, bandwidth, and so I don't have to mess with scaling html-side.
+</figcaption><br><br>
 
 
 <address>
