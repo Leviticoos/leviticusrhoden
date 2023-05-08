@@ -70,7 +70,7 @@ This was my second roll with the Olympus OM-1, and stuff started turning out gre
 <p>
 
 </p><br>
-<img src="./photos/3-19.png" alt="A beautiful youn lady knits at her desk. The bottom left you can see a step lader folded and against the wall. ON the right, you can just make out a desk lamp." width="560px" class="center">
+<img src="./photos/3-19.png" alt="A beautiful youn lady knits at her desk. The bottom left you can see a step lader folded and against the wall. ON the right, you can just make out a desk lamp." width="270px" class="center">
 <figcaption>
 A wonderful photo of my lovely Emma! She's at her desk kniting, which you can almost see through the low exposure.
 </figcaption><br>
