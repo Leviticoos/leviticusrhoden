@@ -67,14 +67,30 @@ This was my second roll with the Olympus OM-1, and stuff started turning out gre
 <h3> Roll 5</h3>
 <h3> Roll 4</h3>
 <h3> Roll 3</h3>
+<p>
+
+</p><br>
+<img src="./photos/3-19.png" alt="A beautiful youn lady knits at her desk. The bottom left you can see a step lader folded and against the wall. ON the right, you can just make out a desk lamp." width="560px" class="center">
+<figcaption>
+A wonderful photo of my lovely Emma! She's at her desk kniting, which you can almost see through the low exposure.
+</figcaption><br>
+<img src="./photos/3-28.png" alt="A beautiful youn lady knits at her desk. The bottom left you can see a step lader folded and against the wall. ON the right, you can just make out a desk lamp." width="560px" class="center">
+<figcaption>
+A wonderful photo of my lovely Emma! She's at her desk kniting, which you can almost see through the low exposure.
+</figcaption><br><br>
+
 <h3> Roll 2, If I Had One</h3>
+<p>
+For this roll, I used a solution of rodinol and water I prepared when I did roll 1. Sitting diluted so long must have lead to the rodinol decaying because the resulting roll was completely blank. Not even any frame numbers or manufacturing info (which is what you would expect for an exposure/advancment problem). At this point, I don't even remember what was on it, but it was a sad reminder of the possibility of failure. At the same time, it has made every next development attempt a bit more exciting!
+</p><br><br>
+
 <h3> Roll 1</h3>
 <p>
-    This roll was my very first attempt at film photography, and it worked!
+    This roll was my very first attempt at film photography, and it worked! The results were very exciting at the time, despite the fact they were, well, bad. You'll notice it was very underexposed, which 
 </p>
-<img src="./photos/1-2.png" alt="PISS TODO" width="560px" class="center">
+<img src="./photos/1-2.png" alt="A beautiful youn lady knits at her desk. The bottom left you can see a step lader folded and against the wall. ON the right, you can just make out a desk lamp." width="560px" class="center">
 <figcaption>
-Figure 1, A .gif of a fluid simulation I programmed. If you look closely you can see it did not work!
+A wonderful photo of my lovely Emma! She's at her desk kniting, which you can almost see through the low exposure.
 </figcaption><br><br>
 
 
