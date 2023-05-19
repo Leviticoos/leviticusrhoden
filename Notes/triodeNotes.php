@@ -8,7 +8,7 @@ Leviticus' Website
 <h1>NOTES ON HOMEMADE TRIODES</h1>
 <br>
 
-<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<!-- <link href="../css/styles.css" rel="stylesheet" type="text/css"> -->
 
 <address>
 <a href="/index.php">leviticusrhoden.com Homepage</a>
