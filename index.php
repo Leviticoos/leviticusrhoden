@@ -32,12 +32,6 @@ Leviticus' Website
     <dd>-<a href="crafting/3d_minis.php"> 3D Printing D&D Minis</a></dd>
     <dd>-<a href="crafting/recordplayer.php"> Record Player Battery</a></dd>
     <dd>-<a href="crafting/recordplayer2.php"> Record Player Platter</a></dd><br>
-<dt><a href="mathinst/mathinst.php">Mathematical Instruments</a></dt>
-    <dd>-<a href="mathinst/straightedge.php"> On the Construction of the Straightedge</a></dd><br>
-<dt><a href="pwhresearch/pwhresearch.php">Pilot Wave Hydrodynamics Research</a></dt>
-    <dd>-<a href="pwhresearch/gifmuseum.php"> GIF Museum</a></dd>
-    <dd>-<a href="pwhresearch/shaker.php"> Oil Bath Shaker</a></dd>
-    <dd>-<a href="pwhresearch/whatispwh.php"> What is Pilot Wave Hydrodynamics?</a></dd><br>
 <dt><a href="cameras/cameras.php">Cameras and Optics</a></dt>
     <dd>-<a href='cameras/developing.php'>How I Develop B&W Film</a></dd>
     <dd>-<a href="cameras/digichrome.php"> WIP Digichrome</a></dd>
@@ -45,6 +39,15 @@ Leviticus' Website
     <dd>-<a href="cameras/pony_135_tuneup.php"> Pony 135 Tuneup</a></dd>
     <dd>-<a href="cameras/thinlenssim.php"> Python Thin Lens Simulator</a></dd>
     <br>
+<dt><a href="mathinst/mathinst.php">Mathematical Instruments</a></dt>
+    <dd>-<a href="mathinst/straightedge.php"> On the Construction of the Straightedge</a></dd><br>
+<dt>Notes on Projects</a></dt>
+    <dd>-<a href="notes/triodeNotes.php"> Notes on Vacuum Triode Construction </a></dd>
+    <dd>-<a href="notes/up!miniNotes.php"> Notes on Converting an UP! Mini to use Cura </a></dd>
+<dt><a href="pwhresearch/pwhresearch.php">Pilot Wave Hydrodynamics Research</a></dt>
+    <dd>-<a href="pwhresearch/gifmuseum.php"> GIF Museum</a></dd>
+    <dd>-<a href="pwhresearch/shaker.php"> Oil Bath Shaker</a></dd>
+    <dd>-<a href="pwhresearch/whatispwh.php"> What is Pilot Wave Hydrodynamics?</a></dd><br>
 <dt><a href="website/website.php">Website</a></dt>
     <dd>-<a href="website/example.php"> Example Page</a></dd>
     <dd>-<a href="website/hostingpi.php"> Hosting a Website on a Raspberry Pi</a></dd>
