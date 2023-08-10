@@ -11,6 +11,9 @@ Rhoden Wedding
 <!-- Display the countdown timer in an element -->
 <dt id="demo" style="font-size: 32pt;"></dt>
 
+<img src="photos/cutie_and_the_beast.JPG" alt="HI EMMA! I LOVE YOU AND Y'OULL NEVER SEE THIS" style="display: block; margin-left: auto; margin-right: auto;">
+
+
 <font size="+2">
 
 <dl>
