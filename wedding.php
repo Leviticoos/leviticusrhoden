@@ -28,9 +28,34 @@ Rhoden Wedding
 <h1 id="rsvp">
 RSVP
 </h1>
-<p>
-We have not set up an RSVP yet, but stay tuned!
-</p>
+
+<form action="process_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="guests">List of People Attending</label>
+        <input type="guests" id="guests" name="guests" required><br><br>
+
+        <label for="attend">Will you Attend?</label>
+        <select id="attend" name="attend" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br><br>
+
+        <label for="feed">What will you be eating</label>
+        <select id="feed" name="feed" required>
+            <option value="chicken">Chicken</option>
+            <option value="lasagna">Vegitarian Lasagna (Seriously tho it's real good)</option>
+        </select>
+        
+        <br><br>
+        
+        <input type="submit" value="Submit">
+</form>
 <br><br>
 
 <h1 id="directions">

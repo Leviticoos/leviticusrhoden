@@ -147,7 +147,7 @@ I hope this breakdown is elementry enough to be noticed as the lens maker's equa
     </i></math>
     </dt>
 <p>
-    Anything else you'll find in my python script, and there is a fair bit, is fluff on top of this. I suppose I should also link my github code for this sim. It is set up to run an arbitrary 3 lens assembly, for a specific project I'm doing. Still, if you need a starting point, it is one!
+    My code can be found on my github, linked below. The main file you'll want to look at, assuming you want to look at the code, is <i>lenses.py</i>, which is a module with all of the functions and the lens system class I made. I did my best to put in comments and docstrings, so hopefully looking through that will give you an idea how it works. All the other code should give you ideas how to use it.
 </p><br>
 <a href='https://github.com/Leviticoos/LensSim'>GIT HUB WITH CODE</a><br>
 <p>

@@ -28,7 +28,13 @@ Leviticus' Website
 <br><br>
 
 <h2>What settup do I have?</h2>
-<p> I belive I have a <b>4.2.x</b> board thanks to <a href="https://www.youtube.com/watch?v=P42dO3ygWOE">this mans.</a> I have a "c" on my SD slot, meaning I have <b>HR4988 stepper control boards</b> thanks to <a href='https://support.th3dstudio.com/helpcenter/creality-v4-2-x-board-driver-codes/'>this page.</a> I also have broken firmware prone to thermal runaway and other problems!
+<p> I belive I have a <b>4.2.x</b> board thanks to <a href="https://www.youtube.com/watch?v=P42dO3ygWOE">this mans.</a> I have a "c" on my SD slot, meaning I have <b>HR4988 stepper control boards</b> thanks to <a href='https://support.th3dstudio.com/helpcenter/creality-v4-2-x-board-driver-codes/'>this page.</a> I also have broken firmware prone to thermal runaway and other problems! Also just checked the board itself, 4.2.2.
+</p>
+<br><br>
+<h2>Game plan</h2>
+<p>
+    I'm going to stick mostly to <a href="https://www.youtube.com/watch?v=kFRy_5lh2IQ">this guide</a> and follow it, although it looks like I'mma need to buy a micro sd card again. Ugh.
+</p>
 
 <address>
 <a href="/index.php">leviticusrhoden.com Homepage</a>
