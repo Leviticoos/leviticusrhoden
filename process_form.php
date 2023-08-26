@@ -5,8 +5,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $guests = $_POST["guests"];
     $attend = $_POST["attend"];
     $feed = $_POST["feed"];
+    $feed2 = $_POST["feed2"];
+    $feed3 = $_POST["feed3"];
+    $feed4 = $_POST["feed4"];
+    $feed5 = $_POST["feed5"];
 
-    $responseText = "Name: $name\nGuests: $guests\nEmail: $email\nAttendance: $attend\nFood Choice: $feed\n\n";
+    $responseText = "Name: $name\nGuests: $guests\nEmail: $email\nAttendance: $attend\nFood Choices: $feed, $feed2, $feed3, $feed4, $feed5\n\n";
 
     // Specify the path to the text file
     $filePath = "rsvp_responses.txt";
