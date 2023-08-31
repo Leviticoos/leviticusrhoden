@@ -1,0 +1,6 @@
+Name: Test Lei
+Guests: 2 FAM
+Email: leviticus.rhoden@gmail.com
+Attendance: yes
+Food Choices: chicken, chicken, n/a, n/a, n/a
+

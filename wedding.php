@@ -32,128 +32,9 @@ Rhoden Wedding
 <h1 id="rsvp">
 RSVP
 </h1>
+<p>Coming to our wedding? <a href="rsvp.php">Click here!</a></p>
 
-<form action="process_form.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        
-        <label for="attend">Will you be attending?</label>
-        <select id="attend" name="attend" required>
-            <option value="yes">I joyfully accept the invitation</option>
-            <option value="no">I regretfully decline the invitation</option>
-        </select>
-        <br><br>
-        
-        
-        <label for="guests">For whom in your party are you responding?</label>
-        <select id="guests" name= "guests" required>
-            <option value="1">myself</option>
-            <option value="2 PLUS 1">myself and my guest</option>
-            <option value="2 FAM">myself and another invited family member</option>
-            <option value="3">myself and two other invited family members</option>
-            <option value="4">myself and three other invited family members</option>
-            <option value="5">myself and four other invited family members</option>
-        </select>
-        <br><br>
-        
-        <div id="feed" style="display: block;">
-        <label for="feed">What will you be eating?</label>
-          <select id="feed" name="feed" required>
-              <option value="n/a">Select one</option>
-              <option value="chicken">Chicken marsala</option>
-              <option value="lasagna">Vegetarian lasagna</option>
-          </select>
-        </div><br><br>
-
-        <div id="feed2" style="display: none;">
-        <label for="feed2">What will the second person be eating?</label>
-          <select id="feed2" name="feed2" required>
-              <option value="n/a">Select one</option>
-              <option value="chicken">Chicken marsala</option>
-              <option value="lasagna">Vegetarian lasagna</option>
-          </select>
-        </div><br><br>
-
-        <div id="feed3" style="display: none;">
-        <label for="feed3">What will the second person be eating?</label>
-          <select id="feed3" name="feed3" required>
-              <option value="n/a">Select one</option>
-              <option value="chicken">Chicken marsala</option>
-              <option value="lasagna">Vegetarian lasagna</option>
-          </select>
-        </div><br><br>
-
-        <div id="feed4" style="display: none;">
-        <label for="feed4">What will the second person be eating?</label>
-          <select id="feed4" name="feed4" required>
-              <option value="n/a">Select one</option>
-              <option value="chicken">Chicken marsala</option>
-              <option value="lasagna">Vegetarian lasagna</option>
-          </select>
-        </div><br><br>
-
-        <div id="feed5" style="display: none;">
-        <label for="feed5">What will the second person be eating?</label>
-          <select id="feed5" name="feed5" required>
-              <option value="n/a">Select one</option>
-              <option value="chicken">Chicken marsala</option>
-              <option value="lasagna">Vegetarian lasagna</option>
-          </select>
-        </div><br><br>
-
-        <input type="submit" value="Submit">
-</form>
 <br><br>
-
-<script>
-          const guests = document.getElementById("guests");
-          const feed = document.getElementById("feed");
-          const feed2 = document.getElementById("feed2");
-          const feed3 = document.getElementById("feed3");
-          const feed4 = document.getElementById("feed4");
-          const feed5 = document.getElementById("feed5");
-
-          guests.addEventListener("change", function() {
-            const selectedValue = guests.value;
-
-            if (selectedValue === "1") {
-                feed.style.display = "block";
-                feed2.style.display = "none";
-                feed3.style.display = "none";
-                feed4.style.display = "none";
-                feed5.style.display = "none";
-            } else if(selectedValue === "2 PLUS 1" || selectedValue === "2 FAM"){
-              feed.style.display = "block";
-              feed2.style.display = "block";
-              feed3.style.display = "none";
-              feed4.style.display = "none";
-              feed5.style.display = "none";
-            } else if(selectedValue === "3"){
-              feed.style.display = "block";
-              feed2.style.display = "block";
-              feed3.style.display = "block";
-              feed4.style.display = "none";
-              feed5.style.display = "none";
-            }else if(selectedValue === "4"){
-              feed.style.display = "block";
-              feed2.style.display = "block";
-              feed3.style.display = "block";
-              feed4.style.display = "block";
-              feed5.style.display = "none";
-            }else if(selectedValue === "5"){
-              feed.style.display = "block";
-              feed2.style.display = "block";
-              feed3.style.display = "block";
-              feed4.style.display = "block";
-              feed5.style.display = "block";
-            }
-        })
-          ;
-      </script>
-
 
 
 <h1 id="registry">
@@ -161,7 +42,6 @@ Registry
 </h1>
 <p></p>
 <br><br>
-
 
 <h1 id="directions">
 Directions
@@ -233,8 +113,13 @@ Wedding Party
 Hotels
 </h1>
 <p>
-
+While we do not have a block of rooms reserved at a specific hotel, we do have recomendations for hotels! Our recomendations are in Marysville, which is equidistant from Snohomish (where we are having the ceremony) and Arlington (where we are having our reception). It is also sandwitched on the left by I-5, the main artery into Seattle, and on the right by SR 9, which runs from Arlington to snohomish and over to I-405. It is a bit north of Everett as well.
 </p>
+<dl>
+<dt> <p><a href="https://www.google.com/travel/hotels/entity/ChgIq-eambquxumNARoLL2cvMXRmdGt4NmIQAQ?q=google%20maps%20hotels%20marysville&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4864715%2C4874190%2C4886480%2C4893075%2C4924070%2C4926818%2C4965990%2C4990494%2C72288622%2C72298667%2C72302247%2C72305577%2C72310436%2C72317059%2C72325596%2C72335199%2C72343701&hl=en-US&gl=us&ssta=1&ts=CAESCAoCCAMKAggDGiAKAhoAEhoSFAoHCOcPEAkYBhIHCOcPEAkYBxgBMgIIASoJCgU6A1VTRBoA&qs=CAE4CkIJCauzJqNzGdONQgkJ4dnyG2JLpLtCCQkEbY0-RDzt4g&ap=aAE&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwiw0LWnw4WBAxUAAAAAHQAAAAAQBA&utm_campaign=sharing&utm_medium=link&utm_source=htls">Holiday Inn Express & Suites in Marysville </a>, a hotel right next to I-5, for easy travel to Seattle. </p></dt>
+<dt><p><a href="https://www.google.com/travel/hotels/entity/ChoIhNq19MOIz_biARoNL2cvMTFqNjUxODI3aBAB?q=google%20maps%20hotels%20marysville&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4864715%2C4874190%2C4886480%2C4893075%2C4924070%2C4926818%2C4965990%2C4990494%2C72288622%2C72298667%2C72302247%2C72305577%2C72310436%2C72317059%2C72325596%2C72335199%2C72343701&hl=en-US&gl=us&ssta=1&ts=CAESCAoCCAMKAggDGiAKAhoAEhoSFAoHCOcPEAkYBhIHCOcPEAkYBxgBMgIIASoJCgU6A1VTRBoA&qs=CAE4CkIJCauzJqNzGdONQgkJ4dnyG2JLpLtCCQkEbY0-RDzt4g&ap=KigKEgmj_jc07gVIQBFkRaySZ4xewBISCR1imfu8DkhAEWRFrOLPiF7AMABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwjgi-G3xIWBAxUAAAAAHQAAAAAQBA&utm_campaign=sharing&utm_medium=link&utm_source=htls">La Quinta Inn & Suites </a> is a bit more north, but still right by I-5. There is also a Home2 by Hilton near it.</p></dt>
+<dt><p><a href = "https://www.google.com/travel/hotels/entity/ChcIvIbLi9rws80zGgsvZy8xdGw5bTkwORAB?q=google%20maps%20hotels%20marysville&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4597339%2C4757164%2C4814050%2C4864715%2C4874190%2C4886480%2C4893075%2C4924070%2C4926818%2C4965990%2C4990494%2C72288622%2C72298667%2C72302247%2C72305577%2C72310436%2C72317059%2C72325596%2C72335199%2C72343701&hl=en-US&gl=us&ssta=1&ts=CAESCAoCCAMKAggDGiAKAhoAEhoSFAoHCOcPEAkYBhIHCOcPEAkYBxgBMgIIASoJCgU6A1VTRBoA&qs=CAE4CkIJCauzJqNzGdONQgkJ4dnyG2JLpLtCCQkEbY0-RDzt4kgA&ap=KigKEgmxyEZPIOdHQBEpxPYsTo9ewBISCcAlQWdzCkhAESnE9mzvgF7AMABoAQ&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwjYqIXWxoWBAxUAAAAAHQAAAAAQBA&utm_campaign=sharing&utm_medium=link&utm_source=htls">Snohomish Inn</a>, located in Snohomish near SR 9. Smaller and more local hotel a bit more out of the way (of Seattle, not our wedding). Rates are cheapest if you call instead of reserving online!</p></dt>
+</dl>
 <br><br>
 
 
