@@ -7,7 +7,7 @@ Rhoden Wedding RSVP
 <body>
 
 <link href="css/weddingstyles.css" rel="stylesheet" type="text/css">
- 
+
 <h1>Rhoden Wedding RSVP</h1>
 <br><br>
 
