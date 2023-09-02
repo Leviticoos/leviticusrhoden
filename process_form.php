@@ -1,10 +1,10 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $name = $_POST["name"];
-    $name2 = $_POST["name2"]
-    $name3 = $_POST["name3"]
-    $name4 = $_POST["name4"]
-    $name5 = $_POST["name5"]
+    $name2 = $_POST["name2"];
+    $name3 = $_POST["name3"];
+    $name4 = $_POST["name4"];
+    $name5 = $_POST["name5"];
     $email = $_POST["email"];
     $guests = $_POST["guests"];
     $attend = $_POST["attend"];
