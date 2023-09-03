@@ -16,7 +16,7 @@ Rhoden Wedding
 
 
 <font size="+2">
-
+ 
 <dl>
 <dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#directions">Directions</a></address></dt>
