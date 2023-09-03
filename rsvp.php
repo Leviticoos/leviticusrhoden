@@ -98,6 +98,9 @@ Rhoden Wedding RSVP
           </select>
         </div><br><br>
 
+        <label for="notes">Any other comments? Dietary or otherwise?</label>
+            <input type="text" id="notes" name="notes"><br><br>
+
         <input type="submit" value="Submit">
 </form>
 <br><br>
