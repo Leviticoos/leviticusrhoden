@@ -1,4 +1,4 @@
-<?php
+<?php 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $name = $_POST["name"];
     $name2 = $_POST["name2"];
