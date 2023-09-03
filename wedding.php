@@ -32,7 +32,7 @@ Rhoden Wedding
 <h1 id="rsvp">
 RSVP
 </h1>
-<p>Coming to our wedding? <a href="rsvp.php">Click here!</a></p>
+<p>Recived an invitation in the mail? <a href="rsvp.php">RSVP here!</a></p>
 
 <br><br>
 
