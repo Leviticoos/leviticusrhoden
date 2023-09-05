@@ -43,7 +43,9 @@ RSVP
 <h1 id="registry">
 Registry
 </h1>
-<p></p>
+<p>
+    Our registry can be found <a href="https://registry.theknot.com/emma-miller-levi-rhoden-december-2023-wa/57059518">here!</a> We are very greatful for all of you for coming to our wedding!
+</p>
 <br><br>
 
 <h1 id="directions">
