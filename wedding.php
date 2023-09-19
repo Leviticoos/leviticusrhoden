@@ -99,6 +99,7 @@ Wedding Party
 <p>*Since Laura is writing this she can say that</p><br>
 <h2>Groomsmen:</h2>
 <h3>Evan Truesdale</h3>
+    <img src="photos/evan.png" style="display: block; margin-left: auto; margin-right: auto;">
 <p>
 Evan first encountered Levi in their first quarter of college under the tutelage of "The Captain" and were jointly perplexed by Alex eating a whole pineapple. He is an enthusiast of all things nerdy and is easily distracted by shiny rocks and rotund birbs. He lived in the sacred meeting grounds of the Bean House with Levi for three years and with Emma for two. He is grateful to be a part of their lives and looks forward to seeing what wonders life holds for them.
 </p><br>
