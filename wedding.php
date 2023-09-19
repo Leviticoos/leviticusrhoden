@@ -35,7 +35,7 @@ Rhoden Wedding
 <h1 id="rsvp">
 RSVP
 </h1>
-<p>Recived an invitation in the mail? <a href="rsvp.php">RSVP here!</a></p>
+<p>Received an invitation in the mail? <a href="rsvp.php">RSVP here!</a></p>
 
 <br><br>
 
@@ -44,7 +44,7 @@ RSVP
 Registry
 </h1>
 <p>
-    Our registry can be found <a href="https://registry.theknot.com/emma-miller-levi-rhoden-december-2023-wa/57059518">here!</a> We are very greatful for all of you for coming to our wedding!
+    Our registry can be found <a href="https://registry.theknot.com/emma-miller-levi-rhoden-december-2023-wa/57059518">here!</a> We are very grateful for all of you for coming to our wedding!
 </p>
 <br><br>
 
