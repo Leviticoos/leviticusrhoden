@@ -91,9 +91,12 @@ The Plot of our Hallmark Movie
 Wedding Party
 </h1>
 <h2>Best Man: Asa Rhoden</h2>
+    <p>
+        Asa is Levi's younger brother and friend since birth. Through many adventures throughout both childhood and early adulthood, Asa has grown closer to his brother and can confidently say he’s the best brother and friend he could have asked for. Asa is currently attending the same university that Levi graduated from (UW!) and enjoys all the same dorky things he enjoys too. Asa is absolutely honored to be the best man for the wedding and hopes to do right by both bride and groom.
+    </p><br>
 <h2>Maid of Honor: Laura Skinner</h2>
 <p>Laura is Emma's best (and most annoying*) friend. She met Emma on move in weekend in freshman year of college and the two bonded over their shared love of knitting. Many years later they have had many adventures together, and Laura has hopefully shared enough pasta to make up for eating it all that first night in the dorms.</p>
-<p>*Since Laura is writing this she can say that</p>
+<p>*Since Laura is writing this she can say that</p><br>
 <h2>Groomsmen:</h2>
 <h3>Evan Truesdale</h3>
 <p>
