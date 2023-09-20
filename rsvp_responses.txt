@@ -118,5 +118,6 @@ Food Choices: n/a, n/a, n/a, n/a, n/a
 Notes: So sorry we have to miss your big day, but a present is on the way :) congratulations and best wishes!! 
 
 UPLOAD EDIT TEST
-
-PULL/DOWNLOAD EDIT TEST
+DETERMINED, GIT WILL NOT OVERWRITE
+TO UPDATE WEBSITE, DOWNLOAD RSVP_RESPONSE.TXT, DELETE FROM CPANEL, REPLASE GIT COPY WITH DOWNLOAD
+WEB WILL RESET ON COMMIT
