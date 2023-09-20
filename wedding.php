@@ -74,9 +74,13 @@ Our wedding will be held on Saturday December 2nd, the year of our Lord 2023. We
 <h1 id="photos">
 Photos
 </h1>
-<p>
-Engagement photos, and eventually some wedding photos!
-</p>
+<h2>
+    Engagement Photos
+</h2>
+    <img src="photos/WHOATHERECOWGIRL.png" style="display: block; margin-left: auto; margin-right: auto;">
+    <img src="photos/comehereoften.png" style="display: block; margin-left: auto; margin-right: auto;">
+    <img src="photos/love.png" style="display: block; margin-left: auto; margin-right: auto;">
+    <img src="photos/christmascard.png" style="display: block; margin-left: auto; margin-right: auto;">
 <br><br>
 
 <h1 id="hallmark">
