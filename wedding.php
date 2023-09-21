@@ -87,7 +87,7 @@ Photos
 The Plot of our Hallmark Movie
 </h1>
 <p>
-
+Levi and Emma met in the sixth grade, but of course didn't start dating until later. Before dating, however, Emma always admired Levi's happy-go-lucky personality and the way he lights up the room with his laugh and smile. Levi admits he had a little crush too. After spending hours after school trying to develop their own conlang (called lasagnage) and calling each other night after night to talk about pretty much everything, they started dating in August 2017. They were each other's first everything. Unfortunately when you start dating at 16, you're not mature enough to promise your life to someone, so after 2 years (and several months in different states) they went their separate ways. That same month, the Covid-19 pandemic sent everyone home from university, and the two found themselves again in their home city. They didn't talk much, but missed each other a lot. Months passed, and by what can only be described as a perfect combination of luck, fate, and therapy, they went on a second first date in August 2020. Their spark was stronger and more mature, and they were different people who had learned not to take their love for granted and carry that ethic forward in their relationship to this day. Levi proposed in December 2022, and you'll hear the rest in the vows. -Emma
 </p>
 <br><br>
 
