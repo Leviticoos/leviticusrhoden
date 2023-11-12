@@ -22,20 +22,21 @@ Rhoden Wedding
 
 <dl>
 <dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
+<dt style="font-size: 20pt;"><address><a href="#registry">Registry</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#directions">Directions</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#itinerary">Itinerary</a></address></dt>
+<dt style="font-size: 20pt;"><adress><a href="#thingsToDo">Things to Do</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#photos">Photos</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#hallmark">The Plot of our Hallmark Movie</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#party">Wedding Party Members</a></address></dt>
 <dt style="font-size: 20pt;"><address><a href="#hotels">Hotels</a></address></dt>
-<dt style="font-size: 20pt;"><address><a href="#registry">Registry</a></address></dt>
 </dl>
 <br><br>
 
 <h1 id="rsvp">
 RSVP
 </h1>
-<p>Received an invitation in the mail? <a href="rsvp.php">RSVP here!</a></p>
+<p>RSVPs have closed, if there are any issues feel free to contact us directly. <a href="rsvp.php">Link for posterity.</a></p>
 
 <br><br>
 
@@ -70,6 +71,43 @@ Itinerary
 Our wedding will be held on Saturday December 2nd, the year of our Lord 2023. We will start things off at <a href="https://goo.gl/maps/rW78RwH3E3EJwyPn7">Snohomish United Methodist Church</a> at 12:30.
 </p>
 <br><br>
+
+<h1 id="thingsToDo">
+Things to Do
+</h1>
+<p>
+  If you're visiting the Seattle area, we figured you might like some things to do and places to eat! We broke it up into three places; Seattle proper, the east side of lake Washington, and north of lake Washington.
+</p>
+<h2>
+  Snohomish/North of the Lake/Where the Wedding Is
+</h2>
+<h3>Activities</h3>
+<dl>
+<dt style="font-size: 20pt;"><address>Cathouse Pizza</address></dt>
+<dt style="font-size: 20pt;"><address>Dutch Bros Coffee</address></dt>
+<dt style="font-size: 20pt;"><address>Russell's</address></dt>
+<dt style="font-size: 20pt;"><address>Snohomish Pie Co.</address></dt>
+</dl>
+<h3>Food</h3>
+<dt style="font-size: 20pt;"><address>Antique Stores on Main Street</address></dt>
+<dt style="font-size: 20pt;"><address>Museum of Flight (Has recreation of early Boeing Factory, Groom Aproved!)</address></dt>
+<dt style="font-size: 20pt;"><address>Uppercase Books</address></dt>
+<dt style="font-size: 20pt;"><address>Stanwood Christmas Lights</address></dt>
+</dl>
+
+<h2>
+  Seattle/West of the Lake/Where the Bride & Groom Reside
+</h2>
+<dl>
+<dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
+</dl>
+
+<h2>
+  Woodinville/East of the Lake/Where the Bride & Groom Grew Up
+</h2>
+<dl>
+<dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
+</dl>
 
 <h1 id="photos">
 Photos
