@@ -81,33 +81,74 @@ Things to Do
 <h2>
   Snohomish/North of the Lake/Where the Wedding Is
 </h2>
-<h3>Activities</h3>
+<h3>Food</h3>
 <dl>
 <dt style="font-size: 20pt;"><address>Cathouse Pizza</address></dt>
 <dt style="font-size: 20pt;"><address>Dutch Bros Coffee</address></dt>
 <dt style="font-size: 20pt;"><address>Russell's</address></dt>
 <dt style="font-size: 20pt;"><address>Snohomish Pie Co.</address></dt>
+<dt style="font-size: 20pt;"><address>Isarn (Thai food)</address></dt>
 </dl>
-<h3>Food</h3>
+<h3>Activities</h3>
 <dt style="font-size: 20pt;"><address>Antique Stores on Main Street</address></dt>
 <dt style="font-size: 20pt;"><address>Museum of Flight (Has recreation of early Boeing Factory, Groom Aproved!)</address></dt>
 <dt style="font-size: 20pt;"><address>Uppercase Books</address></dt>
-<dt style="font-size: 20pt;"><address>Stanwood Christmas Lights</address></dt>
+<dt style="font-size: 20pt;"><address>Stanwood Christmas Lights</address></dt> 
+<dt style="font-size: 20pt;"><address>Lord Hill Park</address></dt>
+<dt style="font-size: 20pt;"><address>Silver Platers Record Store</address></dt>
+<dt style="font-size: 20pt;"><address>Scenic Drives</address></dt>
 </dl>
 
 <h2>
   Seattle/West of the Lake/Where the Bride & Groom Reside
 </h2>
 <dl>
-<dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
+<h3>Food</h3>
+<dt style="font-size: 20pt;"><address>Bizarro</address></dt>
+<dt style="font-size: 20pt;"><address>Piroshky Piroshky</address></dt>
+<dt style="font-size: 20pt;"><address>Seattle Best Tea (Boba)</address></dt>
+<dt style="font-size: 20pt;"><address>Hello Em (Vietnamese)</address></dt>
+<dt style="font-size: 20pt;"><address>Aqua Verde</address></dt>
+<dt style="font-size: 20pt;"><address>Saint Bread</address></dt>
+<dt style="font-size: 20pt;"><address>Bamboo Sushi</address></dt>
+<dt style="font-size: 20pt;"><address>Cedars's (Indian)</address></dt>
+<dt style="font-size: 20pt;"><address>Hotcakes</address></dt>
+<dt style="font-size: 20pt;"><address>Cafe Allegro</address></dt>
+</dl>
+<dl>
+<h3>Activities</h3>
+<dt style="font-size: 20pt;"><address>Ferry Ride to Bainbridge Island</address></dt>
+<dt style="font-size: 20pt;"><address>Magus Books</address></dt>
+<dt style="font-size: 20pt;"><address>Museum of History and Industry</address></dt>
+<dt style="font-size: 20pt;"><address>Walk of University of Washington Campus</address></dt>
+<dt style="font-size: 20pt;"><address>Pike Place</address></dt>
+<dt style="font-size: 20pt;"><address>Underground Tour</address></dt>
+<dt style="font-size: 20pt;"><address>Scaregrow Video Rentals</address></dt>
+<dt style="font-size: 20pt;"><address>Starbucks Reserve Roastery</address></dt>
+<dt style="font-size: 20pt;"><address>Walk around Green Lake</address></dt>
+<dt style="font-size: 20pt;"><address>Sheraton Gingerbread Village</address></dt>
 </dl>
 
 <h2>
   Woodinville/East of the Lake/Where the Bride & Groom Grew Up
 </h2>
+<h3>Food</h3>
 <dl>
-<dt style="font-size: 20pt;"><address><a href="#rsvp">RSVP</a></address></dt>
+<dt style="font-size: 20pt;"><address>Din Tai Fung Dumpling House</address></dt>
+<dt style="font-size: 20pt;"><address>Top Pot Donuts</address></dt>
+<dt style="font-size: 20pt;"><address>Mercurys Drive Thru Coffee (Try the bees knees!)</address></dt>
+<dt style="font-size: 20pt;"><address>Dough Zone (Dumplings)</address></dt>
+<dt style="font-size: 20pt;"><address>Anthony's</address></dt>
+<dt style="font-size: 20pt;"><address>Mod Pizza</address></dt>
+<dt style="font-size: 20pt;"><address>Hillcrest Bakery (They made the cake!)</address></dt>
 </dl>
+<h3>Acctivities</h3>
+<dl>
+<dt style="font-size: 20pt;"><address>Hiking, although mountains will be snowy</address></dt>
+<dt style="font-size: 20pt;"><address>Walk the Burke Gillman Trail</address></dt>
+<dt style="font-size: 20pt;"><address>Woodinville Wine District</address></dt>
+</dl>
+<br><br>
 
 <h1 id="photos">
 Photos
