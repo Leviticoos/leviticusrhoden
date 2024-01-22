@@ -68,6 +68,12 @@ Figure 2, One of my best YouTube videos! Embedding it on your own is a pain, but
 </figcaption>
 <br><br>
 
+<h2>
+    Annotated Bibliography
+</h2>
+<dt><a href="crafting/crafting.php">Source 1, www.sourceone.com, accessed 01/01/2000</a></dt>
+    <dd>This source was a great resource for how i could do x, y, and z.</a></dd>
+
 <address>
 <a href="/index.php">leviticusrhoden.com Homepage</a>
 </address>
