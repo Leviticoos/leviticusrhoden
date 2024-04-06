@@ -28,36 +28,62 @@ Leviticus' Website
     Table of Contents
 </h2>
 <dt><a href="crafting/crafting.php">Crafting</a></dt>
-    <dd>-<a href="crafting/nonPlanar3D.php"> COMING SOON Non Planar 3D Printing</a></dd>
+    <dd>-<a href="hpEnvyFix.php">[Needs Photos] HP Envy 13-aqxxxx Retaining Clip</a></dd>
+    <dd>-<a href="crafting/nonPlanar3D.php"> [Needs Photos] Non Planar 3D Printing</a></dd>
     <dd>-<a href="crafting/3d_minis.php"> 3D Printing D&D Minis</a></dd>
     <dd>-<a href="crafting/recordplayer.php"> Record Player Battery</a></dd>
-    <dd>-<a href="crafting/recordplayer2.php"> Record Player Platter</a></dd><br>
-<dt><a href="cameras/cameras.php">Cameras and Optics</a></dt>
-    <dd>-<a href='cameras/developing.php'>How I Develop B&W Film</a></dd>
-    <dd>-<a href="cameras/digichrome.php"> WIP Digichrome</a></dd>
-    <dd>-<a href="cameras/OM-1 Camera.php"> COMING SOON OM-1 Camera</a></dd>
-    <dd>-<a href="cameras/pony_135_tuneup.php"> Pony 135 Tuneup</a></dd>
-    <dd>-<a href="cameras/thinlenssim.php"> Python Thin Lens Simulator</a></dd>
+    <dd>-<a href="crafting/recordplayer2.php"> Record Player Platter</a></dd>
+    <dd>-<a href="crafting/coco2.php"> TRS-80 / Color Computer 2 / "The Tandy"</a></dd>
+    
     <br>
+
+<dt><a href="cameras/cameras.php">Cameras and Optics</a></dt>
+    <dd>-<a href="cameras/pony_135_tuneup.php"> Pony 135</a></dd>
+    <dd>-<a href="cameras/OM-1 Camera.php"> [WIP] OM-1 Camera</a></dd>
+    <dd>-<a href="cameras/penees2.php"> [WIP] Olympus Pen EES-2</a></dd>
+    <hr>
+    <dd>-<a href='cameras/developing.php'>How I Develop B&W Film</a></dd>
+    <dd>-<a href="cameras/digichrome.php"> [WIP] Digichrome</a></dd>
+    <dd>-<a href="cameras/thinlenssim.php"> Python Thin Lens Simulator</a></dd>
+    
+    <br>
+
 <dt><a href="mathinst/mathinst.php">Mathematical Instruments</a></dt>
-    <dd>-<a href="mathinst/straightedge.php"> On the Construction of the Straightedge</a></dd><br>
-<dt>Notes on Projects</a></dt>
-    <dd>-<a href="notes/triodeNotes.php"> Notes on Vacuum Triode Construction </a></dd>
-    <dd>-<a href="notes/up!miniNotes.php"> Notes on Converting an UP! Mini to use Cura </a></dd>
+    <dd>-<a href="mathinst/straightedge.php"> On the Construction of the Straightedge</a></dd>
+    
+    <br>
+
 <dt><a href="pwhresearch/pwhresearch.php">Pilot Wave Hydrodynamics Research</a></dt>
     <dd>-<a href="pwhresearch/gifmuseum.php"> GIF Museum</a></dd>
     <dd>-<a href="pwhresearch/shaker.php"> Oil Bath Shaker</a></dd>
-    <dd>-<a href="pwhresearch/whatispwh.php"> What is Pilot Wave Hydrodynamics?</a></dd><br>
+    <dd>-<a href="pwhresearch/whatispwh.php"> What is Pilot Wave Hydrodynamics?</a></dd>
+    
+    <br>
+
+<dt><a href="trains/trains.php">Model Trains</a></dt>
+    <dd>-<a href="trains/gno7.php">[WIP] Great Northern O-7 </a></dd>
+
+    <br>
+
 <dt><a href="website/website.php">Website</a></dt>
     <dd>-<a href="website/example.php"> Example Page</a></dd>
     <dd>-<a href="website/hostingpi.php"> Hosting a Website on a Raspberry Pi</a></dd>
     <dd>-<a href="website/othersites.php"> Links</a></dd>
-    <dd>-<a href="website/styleguide.php"> Leviticus' Website Styleguide</a></dd><br>
+    <dd>-<a href="website/styleguide.php"> Leviticus' Website Styleguide</a></dd>
+    
+    <br>
+
+<dt>Notes on Projects</a></dt>
+    <dd>-<a href="notes/triodeNotes.php"> [ON HOLD] Notes on Vacuum Triode Construction </a></dd>
+    <dd>-<a href="notes/up!miniNotes.php"> [RETIRED] Notes on Converting an UP! Mini to use Cura </a></dd>
+
+    <br>
     
 <br><br>
 <h2>
     Chronological Order
 </h2>
+
 <dt><a href="cameras/developing.php">How I Develop B&W Film</a></dt>
     <dd>- Dec 2022</dd>
 <dt><a href="cameras/thinlenssim.php">Thin Lens Simulator</a></dt>

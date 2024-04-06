@@ -21,7 +21,7 @@ Crafting
     Welcome to my crafting homepage, the real bread and butter of my weekend projects. While crafting these days generally has a more paper and glue type of vibe, the word really means anything that a craftsman would make. It is that sense of the word that fits this page. Somewhere between tinkering, inventing, and modern crafting falls this page, and I hope you will have fun perusing the different articles here. Maybe it'll even give some inspiration!
 </p><br><br>
 
-<h2><a href="nonPlanar3D.php">COMING SOON: Non Planar 3D Printing</a></h2>
+<h2><a href="nonPlanar3D.php">[NEEDS PHOTOS] Non Planar 3D Printing</a></h2>
 <p>
     A simple set of python scripts that generate GCODE for an Ender 3 printer, where you can have each layer surface transition from planar at the base to a function.
 </p><br><br>
@@ -31,13 +31,6 @@ Crafting
 </h2>
 <p>
     A simple overview of the settings for Cura and my Ender 3 printer that have good results printing minis for board and tabletop games. Not too detailed, just a list of numbers and suggestions for my future self and anyone intrested.
-</p><br><br>
-
-<h2>
-    <a href="pony_135_tuneup.php">Pony 135 Camera Tuneup</a>
-</h2>
-<p>
-    The adventure of trying to clean and fix an old Kodak Pony 135 Model B film camera! I got it for $20 at an antique store, as I've wanted to get into film photography for quite a while. I originally wasn't going to make a page about it, but I ended up finding a new way to calibrate the focus after opening up the lens assembly, and want it to be available for others if they find themselves in my position.
 </p><br><br>
 
 <h2>
@@ -55,10 +48,17 @@ A half arsed attempt at making a new record player platter. While it is not the 
 </p><br><br>
 
 <h2>
-<a href="hpEnvyFix.php">HP Envy 13-aqxxxx Retaining Clip</a>
+<a href="hpEnvyFix.php">[NEEDS PHOTOS] HP Envy 13-aqxxxx Retaining Clip</a>
 </h2>
 <p>
 My laptop had a problem where the bottom plate was slowly coming off the rest of the computer, and I couldn't open it up to fix it. So, I made an outside mounting 3D printed clip to keep it together.
+</p><br><br>
+
+<h2>
+<a href="crafting/coco2.php">[WIP] TRS-80 / Color Computer 2 / "The Tandy"</a>
+</h2>
+<p>
+My dad's old personal computer from 1986 has found its way into my tiny Seattle apartment, and it is quite fun to mess around with! I've programed some physical simulations, saved programs to a casset, and got a cartrage of "Color Baseball." I also had to figure out how to view an analog TV signal on a desktop monitor, and even screen record it for twitch streams!
 </p><br><br>
 
 <address>

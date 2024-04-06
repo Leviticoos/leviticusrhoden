@@ -24,7 +24,7 @@ Hosting Two Sites and a Python Script on a Raspberry Pi
 First Steps
 </h2>
 <p>
-I first started by following [1] to set up my raspberry Pi headlessly. I also followed [2] to download both apache and PHP to said raspberry pi. Next, I followed my own page to set up dynamic IP routing with namecheap. [3] at this point says to have both domains point at the home server.
+I first started by following [1] to set up my raspberry Pi headlessly. I also followed [2] to download both apache and PHP to said raspberry pi. Next, I followed my own page to set up dynamic IP routing with namecheap. I followed [4] to set up ddclient. [3] at this point says to have both domains point at the home server. 
 </p><p>
 Second paragraph, notice the double line break after.
 </p><br><br>

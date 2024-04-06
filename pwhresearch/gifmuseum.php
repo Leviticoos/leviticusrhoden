@@ -29,7 +29,7 @@ Hello, and welcome to my grand gif museum. I have made quite a few gifs in the c
 
 <h2>
 Table of Contents
-</h2
+</h2>
 
 <dl>
   <dt>Distilling the Faria PDEs</dt>
