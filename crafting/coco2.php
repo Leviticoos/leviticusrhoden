@@ -15,7 +15,7 @@ TRS-80 / Color Computer 2 / "The Tandy"
 <a href="../index.php">leviticusrhoden.com Homepage</a>
 </address>
 <address>
-<a href="/crafting.php">Back to crafting</a>
+<a href="crafting.php">Back to crafting</a>
 </address>
 
 <img src="/photos/pikachu_construction.gif" width="300px" class="center">

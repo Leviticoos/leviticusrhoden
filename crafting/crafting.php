@@ -55,7 +55,7 @@ My laptop had a problem where the bottom plate was slowly coming off the rest of
 </p><br><br>
 
 <h2>
-<a href="crafting/coco2.php">[WIP] TRS-80 / Color Computer 2 / "The Tandy"</a>
+<a href="coco2.php">[WIP] TRS-80 / Color Computer 2 / "The Tandy"</a>
 </h2>
 <p>
 My dad's old personal computer from 1986 has found its way into my tiny Seattle apartment, and it is quite fun to mess around with! I've programed some physical simulations, saved programs to a casset, and got a cartrage of "Color Baseball." I also had to figure out how to view an analog TV signal on a desktop monitor, and even screen record it for twitch streams!
