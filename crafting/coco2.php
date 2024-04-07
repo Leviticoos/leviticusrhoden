@@ -5,7 +5,7 @@ Leviticus' Website
 </title>
 </head>
 
-<h1>
+<h1 id="#top">
 TRS-80 / Color Computer 2 / "The Tandy"
 </h1>
 
@@ -18,18 +18,20 @@ TRS-80 / Color Computer 2 / "The Tandy"
 <a href="crafting.php">Back to crafting</a>
 </address>
 
-<img src="/photos/pikachu_construction.gif" width="300px" class="center">
+<img src="../photos/pikachu_construction.gif" width="300px" class="center">
 
 
 <p>
 Welcome to my Omnibus page for the TRS-80, or the Color Computer 2, CoCo 2 for short, and affectionately called the Tandy by my family. Here I'm going to record all my expirementation, partly to catch myself up to speed when I pull this thing out from the china cabinet once again, and I forget what programs I use to view the darn thing!
 </p><br><br>
 
+<h2>Table of Contents</h2>
 <dl>
   <dt><a href="#history">History </a></dt>
   <dt><a href="#viewing">Viewing on a Windows 10 Computer</a></dt>
   <dt><a href="#physsim">Generic Linear System Simulation</a></dt>
 </dl>
+<br><br>
 
 <h2 id="#history">
 History
@@ -42,39 +44,36 @@ This computer is OLD LOL.
 Viewing on a Windows 10 Computer
 </h2>
 <p>
-I'll fill this out later, but I think the main theme is use an analog to USB converter, which they don't make anymore but you can get old stock on EBAY. Make sure it's specifically analog TV, as current over the air tv is digital and uses a different encoding method. Then use VLC media player to read from that USB and display it.
-</p><br><br>
+The first step here is a weird one, but I needed a way to turn an analog TV signal into a video input to a computer. Luckily, people have always wanted to watch free, over the air television on their computers! Unluckily, over the air television ceased being analog around 2009. Thus, I had to find old stock of this converter, which would use the old analog standards. Luckily, eBay was a great place to look, and I picked up <a href="https://www.ebay.com/itm/254051981718?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=s6Oxboz6Te2&sssrc=4429486&ssuid=00-9240nshm&var=&widget_ver=artemis&media=COPY">this bad boy</a>. Weirdly enough, it says digital on the side of it. But I'm guessing this is because the output is digital, as it is branded, and seems to work with, analog tv input. The dvr program it comes with leaves a lot to be desired, and I have not found myself using it much, but the drivers are nice to have! It takes a coax, RF encoded television signal (like the kind you would get from an antenna) and spits out video over USB.
+</p>
+<p>
+Now that we have a USB in for the video, we need a program to play it on. For this, I use VLC media player, which I already had installed to watch Seinfeld on DVD. Navigating to the Open Media menu shown below, you can set VLC up to read that incoming signal. It is also important to hit "advanced options" as well, and set the channel to either 3 or 4, which the Tandy can be set to using the switch on the back.
+</p>
+<img src="photos/vlctvsettings.jpg" alt="A view of the 'open media' settings screen of VLC. Capture mode is DirectShow, and both Video and Audio device name are set to 'USB TV Device.' Caching is set to 0ms." style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption>
+    This seems silly to put here, but I spent an hour trying to re-learn how I got this to work. So this is more for me than for you.
+</figcaption><br><br>
+<p>
+And that's about it! Does it look the best? No. Does it have an odd thump sound going at about 5Hz? Maybe. But, I can also actually use the computer in my TV-less apartment, and share the below screenshot to boot!
+</p>
+<img src="photos/coco2snap.png" alt="A screenshot of the CoCo 2's bootup screen, along with an executed line of code which printed 'hello world'" style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption>
+    It's ugly, but I am proud it works at all.
+</figcaption><br><br>
+<address><a href="#top"> Back to Top </a></address>
+<br><br>
 
 
-<h2>
-Examples of Embedding
+<h2 id="physsim">
+Generic Linear Systems Simulator
 </h2>
 <p>
-<a href="hostingpi.php">A link example, can be put inside paragraphs of text.</a>
+This is a fun, ongoing project of mine to let me simulate.
 </p>
-<address>
-<a href="hostingpi.php">A link example, but it's centered!</a>
-</address>
+<br><br>
+<address><a href="#top"> Back to Top </a></address>
 <br><br>
 
-<img src="./crafting/photos/camera_roll_mechanism.jpg" alt="A few long arms, a rachet, and a small arm that stops a cam from turning." style="display: block; margin-left: auto; margin-right: auto;">
-<figcaption>
-    An example of an embeded image that I resize to either 350px or 500px wide, to save space, bandwidth, and so I don't have to mess with scaling html-side.
-</figcaption><br><br>
-
-<img src="./photos/pikachu_construction.gif" width="300px" class="center">
-
-<figcaption>An important gif to let the people know a page is unfinished.</figcaption>
-
-<img src="https://web.archive.org/web/20220323015114im_/https://media.giphy.com/media/B7eXvaDYdHv8NDTM0v/giphy.gif" width="560px" class="center">
-<figcaption>
-Figure 1, A .gif of a fluid simulation I programmed. If you look closely you can see it did not work!
-</figcaption><br><br>
-<iframe width="560" height="315" src="https://web.archive.org/web/20220323015114if_/https://www.youtube.com/embed/CUZq7yudbSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<figcaption>
-Figure 2, One of my best YouTube videos! Embedding it on your own is a pain, but YouTube has a handy html generator function, so it takes care of it all. Both img and iframe are centered in the styles.css file.
-</figcaption>
-<br><br>
 
 <h2>
     Annotated Bibliography

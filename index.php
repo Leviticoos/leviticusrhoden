@@ -33,7 +33,7 @@ Leviticus' Website
     <dd>-<a href="crafting/3d_minis.php"> 3D Printing D&D Minis</a></dd>
     <dd>-<a href="crafting/recordplayer.php"> Record Player Battery</a></dd>
     <dd>-<a href="crafting/recordplayer2.php"> Record Player Platter</a></dd>
-    <dd>-<a href="crafting/coco2.php"> TRS-80 / Color Computer 2 / "The Tandy"</a></dd>
+    <dd>-<a href="crafting/coco2.php"> [WIP] TRS-80 / Color Computer 2 / "The Tandy"</a></dd>
     
     <br>
 
