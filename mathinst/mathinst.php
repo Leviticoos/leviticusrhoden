@@ -23,6 +23,8 @@ Table of Contents
 <dl>
 <dt><a href ="straightedge.php">Straightedge</a></dt>
     <dd>Here we follow Bion's directions for making a nearly perfect straightedge.</dd>
+<dt><a href="compass.php">Compass</a></dt>
+    <dd>Here we follow Bion's directions for making a compass, or more correctly, try and build something that fits his criteria.</dd>
 <br>
 </dl><br><br>
 
