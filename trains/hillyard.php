@@ -6,7 +6,7 @@ Leviticus' Website
 </head>
 
 <h1>
-Model Railroading
+Spokane Hillyard Switching Layout
 </h1>
 
 <link href="../css/styles.css" rel="stylesheet" type="text/css">
@@ -14,29 +14,28 @@ Model Railroading
 <address>
 <a href="../index.php">leviticusrhoden.com Homepage</a>
 </address>
+<address>
+<a href="/trains.php">Back to Trains</a>
+</address>
 
-<img src="/photos/pikachu_construction.gif" width="300px" class="center">
+<img src="./photos/pikachu_construction.gif" width="300px" class="center">
 
 <h2>
-Trains
+The Layout
 </h2>
-<h3>
-    <a href= "gno7.php"> Great Northern O-7 Mikado</a>
-</h3><p>
-The first train I've bought, number 3885
+<p>
+For this layout, I wanted to make a switching layout about a foot and a half deep, and however long it needs to be. I'm lucky enough to have a (albeit grainy) map of the hillyard. I'll be looking for a more detailed map this summer. I plan to take a trip to spokane, it's about a 5 hour drive from my home Seattle, and see if their local archives have any cool history. That'll make it's way here.
+</p><br>
+<img src="photos/hillyardMap.jpg" alt="A spagetti of train tracks, TODO" style="display: block; margin-left: auto; margin-right: auto;">
+<figcaption>
+    The Spokane Hillyard Track Plan
+</figcaption><br><br>
+<p>
+Second paragraph, notice the double line break after.
 </p><br><br>
 
 <h2>
-Layouts
-</h2>
-<h3>
-    <a href= "hillyard.php"> Spokane Hillyard</a>
-</h3><p>
-The first train I've bought, number 3885
-</p><br><br>
-
-<h2>
-Another Subheading
+The Hillyard
 </h2>
 <p>
 Paragraph 1.
