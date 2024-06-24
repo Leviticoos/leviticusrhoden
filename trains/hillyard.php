@@ -78,6 +78,7 @@ Figure 2, One of my best YouTube videos! Embedding it on your own is a pain, but
 </h2>
 <dt><a href="https://www.trainboard.com/highball/index.php?media/hillyard-map-steam-era-with-full-roundhouse-and-icing-facilities.1448/">Source a, Trainboard.com</a></dt>
     <dd>This source was a great resource for how i could do x, y, and z.</a></dd>
+<dt><a href="https://www.northwestmuseum.org/collections/research-archives/">Source b, Contact these blokes about No. L85-143.38, Arial view of Hillyard ca 1942</dt>
 
 <address>
 <a href="/index.php">leviticusrhoden.com Homepage</a>
