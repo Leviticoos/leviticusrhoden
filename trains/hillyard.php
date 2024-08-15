@@ -55,13 +55,17 @@ Locomotive Production
 One of my hopes for this layout is to get to run locomotive repair, overhaul, and even assembly operations (ops). That includes reciving boxcars with parts from other manufacturers (usually things like lamps, gauges, etc.), reciving raw materials (lumbar, steel ingots, sheet metal, maybe rivets), the nebulus ~building things~, and final assembly. This also would include the transfer of parts between and within the buildings in the Hillyard. If this sounds like a lofty goal, it is! And it was quite the adventure to get there.
 </p>
 <p>
-    This journey started with the book Superpower by TODO TODO [d], which proved to be a great starting point for how a locomotive works, well, works. Written from the perspective of a young man just starting his employ at the LIMA locomotive works, we follow him helping out at each stage of the creation of a new locomotive. This gives a great narative idea of not only the process of building a steam locomotive, but also how the people in this shop lived, interacted with each other, and how they went about their work. This is invaluable information when the buildings and tracks are placed, and it's time to fill the layout with people going about their lives.
-    The book breaks the production process into a few steps:
+    This journey started with the book Superpower by TODO TODO [d], which proved to be a great starting point for how a locomotive works, well, works. Written from the perspective of a young man just starting his employ at the LIMA locomotive works, we follow him helping out at each stage of the creation of a new locomotive. This gives a great narative idea of not only the process of building a steam locomotive, but also how the people in this shop lived, interacted with each other, and how they went about their work. This is invaluable information when the buildings and tracks are placed, and it's time to fill the layout with people going about their lives.</p>
+<p>
+The book breaks the production process into a few steps:
+</p><br>
     <dt>Design; engineers and drafters in an office of sorts.</dt>
     <dt>Carving; carpenters making wooden 1:1 models of the designed cast parts</dt>
     <dt>Casting; the wooden parts are stamped into casting sand to make the molds, then melted metal is poured to make parts like the chasiss, wheels, etc.</dt>
-    <dt></dt>
-</p>    
+    <dt></dt><br>
+<p>
+    The next step was following the sources in [d] to try and get some more academic data about locomotive production. It mentioned one of the best sources was the California State Railroad Museum in Sacramento, which I have been to many times over. I emailed them and...
+</p>  
 <br>
 <img src="photos/hillyardMap.jpg" alt="A spagetti of train tracks, TODO" style="display: block; margin-left: auto; margin-right: auto;">
 <figcaption>
