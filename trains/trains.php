@@ -28,7 +28,7 @@ The first train I've bought, number 3885
 <h3>
     <a href= "gn 0 4 0.php"> 0-4-0 Mantua Switcher/a>
 </h3><p>
-The first train I've bought, number 3885
+This little mid-centry gem was a gift from my friend Brooks.
 </p><br><br>
     
 
