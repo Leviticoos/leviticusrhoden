@@ -28,7 +28,6 @@ Leviticus' Website
     Table of Contents
 </h2>
 <dt><a href="crafting/crafting.php">Crafting</a></dt>
-    <dd>-<a href="hpEnvyFix.php">[Needs Photos] HP Envy 13-aqxxxx Retaining Clip</a></dd>
     <dd>-<a href="crafting/nonPlanar3D.php"> [Needs Photos] Non Planar 3D Printing</a></dd>
     <dd>-<a href="crafting/3d_minis.php"> 3D Printing D&D Minis</a></dd>
     <dd>-<a href="crafting/recordplayer.php"> Record Player Battery</a></dd>
@@ -47,6 +46,10 @@ Leviticus' Website
     <dd>-<a href="cameras/thinlenssim.php"> Python Thin Lens Simulator</a></dd>
     
     <br>
+
+<dt><a href="computers/computers.php">Computers & Mathematics</a></dt>
+    <dd>-<a href="computers/coco2.php"> [WIP] TRS-80 / Color Computer 2 / "The Tandy"</a></dd>
+    <dd>-<a href="computers/hpEnvyFix.php">[Needs Photos] HP Envy 13-aqxxxx Retaining Clip</a></dd>
 
 <dt><a href="mathinst/mathinst.php">Mathematical Instruments</a></dt>
     <dd>-<a href="mathinst/straightedge.php"> On the Construction of the Straightedge</a></dd>
