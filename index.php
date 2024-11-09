@@ -19,9 +19,9 @@ Leviticus' Website
 
 <br>
 <p>
-    My name is Leviticus Rhoden, and I'm a mechanical engineer and tinkerer. I've spent my life solving problems and building things, both as a hobby and as a profession. I am currently an undergrad at the University of Washington, where I do research with the Applied Mathematics department on <a href="/pwhresearch/pwhresearch.php">pilot wave hydrodynamics</a>. I also spend much of my free time making, tinkering, and crafting. 
-    </p><p>
-        If I had a dime for everytime I was working on a project, and found exactly what I was looking for on some html site from the early 2000's, I'd be able to afford my college tuition. To that end, I figured it was time to give back to that comunity. I hope to catalouge and recount some of my projects and the sources that helped make 'em tick.
+    My name is Levi Rhoden, and I'm a mechanical engineer and tinkerer. I've spent my life solving problems and building things, both as a hobby and as a profession. I am currently a Mechanical Engineer at Astronics AES, where I design housings for aviation grade electric power distribution equipment. These have to survive long term vibrations, disipate mass amounts of heat, and meet very high standards for quality and long term survivability. I also run a small buisness, <a href="unlimiteb.com">Unlimiteb.com</a>, with my brother Asa. In addition, I have a ton of hobbies! Model trains, old computers, programing, clocks, leatherworking, carpentry, and <a href="https://knowyourmeme.com/memes/graphic-design-is-my-passion">web design is my passion</a>.
+</p><p>
+    If I had a dime for everytime I was working on a project, and found exactly what I was looking for on some html site from the early 2000's, I'd be able to afford college tuition. To that end, I figured it was time to give back to that comunity. I hope to catalouge and recount some of my projects and the sources that helped make 'em tick. Plus, forcing myself to write stuff down helps me in the future re-discover what I did.
 </p>
 
 <h2>
@@ -32,7 +32,6 @@ Leviticus' Website
     <dd>-<a href="crafting/3d_minis.php"> 3D Printing D&D Minis</a></dd>
     <dd>-<a href="crafting/recordplayer.php"> Record Player Battery</a></dd>
     <dd>-<a href="crafting/recordplayer2.php"> Record Player Platter</a></dd>
-    <dd>-<a href="crafting/coco2.php"> [WIP] TRS-80 / Color Computer 2 / "The Tandy"</a></dd>
     
     <br>
 
@@ -65,7 +64,8 @@ Leviticus' Website
 
 <dt><a href="trains/trains.php">Model Trains</a></dt>
     <dd>-<a href="trains/gno7.php">[WIP] Great Northern O-7 </a></dd>
-
+    <dd>-<a href="trains/gn 0 4 0.php">[WIP] Mantua 0-4-0 Switcher Tune-Up </a></dd>
+    <dd>-<a href="trains/hillyard.php">[WIP] Hillyard </a></dd>
     <br>
 
 <dt><a href="website/website.php">Website</a></dt>
@@ -86,6 +86,7 @@ Leviticus' Website
 <h2>
     Chronological Order
 </h2>
+
 
 <dt><a href="cameras/developing.php">How I Develop B&W Film</a></dt>
     <dd>- Dec 2022</dd>
