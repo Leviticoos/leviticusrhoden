@@ -21,7 +21,7 @@ Leviticus' Website
 <p>
     My name is Levi Rhoden, and I'm a mechanical engineer and tinkerer. I've spent my life solving problems and building things, both as a hobby and as a profession. I am currently a Mechanical Engineer at Astronics AES, where I design housings for aviation grade electric power distribution equipment. These have to survive long term vibrations, disipate mass amounts of heat, and meet very high standards for quality and long term survivability. I also run a small buisness, <a href="unlimiteb.com">Unlimiteb.com</a>, with my brother Asa. In addition, I have a ton of hobbies! Model trains, old computers, programing, clocks, leatherworking, carpentry, and <a href="https://knowyourmeme.com/memes/graphic-design-is-my-passion">web design is my passion</a>.
 </p><p>
-    If I had a dime for everytime I was working on a project, and found exactly what I was looking for on some html site from the early 2000's, I'd be able to afford college tuition. To that end, I figured it was time to give back to that comunity. I hope to catalouge and recount some of my projects and the sources that helped make 'em tick. Plus, forcing myself to write stuff down helps me in the future re-discover what I did.
+    If I had a dime for everytime I was working on a project, and found exactly what I was looking for on some html site from the early 2000's, I'd be able to afford college tuition. To that end, I figured it was time to give back to that comunity. I hope to catalouge and recount some of my projects and the sources that helped make 'em tick. Plus, forcing myself to write stuff down helps me in the future re-discover what I did. I'm also hoping to get a job.
 </p>
 
 <h2>
