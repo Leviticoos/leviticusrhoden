@@ -19,10 +19,25 @@ Leviticus' Website
 
 <br>
 <p>
-    TESTING 1 2 3 My name is Levi Rhoden, and I'm a mechanical engineer and tinkerer. I've spent my life solving problems and building things, both as a hobby and as a profession. I am currently a Mechanical Engineer at Astronics AES, where I design housings for aviation grade electric power distribution equipment. These have to survive long term vibrations, disipate mass amounts of heat, and meet very high standards for quality and long term survivability. I also run a small buisness, <a href="unlimiteb.com">Unlimiteb.com</a>, with my brother Asa. In addition, I have a ton of hobbies! Model trains, old computers, programing, clocks, leatherworking, carpentry, and <a href="https://knowyourmeme.com/memes/graphic-design-is-my-passion">web design is my passion</a>.
+    My name is Levi Rhoden, and I'm a mechanical engineer and tinkerer. I've spent my life solving problems and building things, both as a hobby and as a profession. I am currently a Mechanical Engineer at Astronics AES, where I design housings for aviation grade electric power distribution equipment. These have to survive long term vibrations, disipate mass amounts of heat, and meet very high standards for quality, production control, and long term survivability. I also run a small buisness, <a href="unlimiteb.com">Unlimiteb.com</a>, with my brother Asa. In addition, I have a ton of hobbies! Model trains, old computers, programing, clocks, leatherworking, carpentry, and <a href="https://knowyourmeme.com/memes/graphic-design-is-my-passion">web design</a>.
 </p><p>
-    If I had a dime for everytime I was working on a project, and found exactly what I was looking for on some html site from the early 2000's, I'd be able to afford college tuition. To that end, I figured it was time to give back to that comunity. I hope to catalouge and recount some of my projects and the sources that helped make 'em tick. Plus, forcing myself to write stuff down helps me in the future re-discover what I did. 
+    If I had a dime for everytime I was working on a project, and found exactly what I was looking for on some html site from the early 2000's, I'd be able to afford a house in Seattle. To that end, I figured it was time to give back to that community. I hope to catalouge and recount some of my projects and the sources that helped make 'em tick. Plus, forcing myself to write stuff down helps me in the future re-discover what I did. 
 </p>
+
+<h2>
+        Highlights
+</h2>
+
+<p>
+        A subset of my best projects!
+</p>
+<dd>-<a href="crafting/recordplayer.php"> Record Player Battery</a></dd>
+<dd>-<a href="cameras/thinlenssim.php"> Python Thin Lens Simulator</a></dd>
+<dd>-<a href="pwhresearch/shaker.php"> Oil Bath Shaker</a></dd>
+<dd>-<a href="website/hostingpi.php"> Hosting a Website on a Raspberry Pi</a></dd>
+
+    
+    <br><br>
 
 <h2>
     Table of Contents
@@ -46,9 +61,11 @@ Leviticus' Website
     
     <br>
 
-<dt><a href="computers/computers.php">Computers & Mathematics</a></dt>
+<dt><a href="computers/computers.php">Computers</a></dt>
     <dd>-<a href="computers/coco2.php"> [WIP] TRS-80 / Color Computer 2 / "The Tandy"</a></dd>
     <dd>-<a href="computers/hpEnvyFix.php">[Needs Photos] HP Envy 13-aqxxxx Retaining Clip</a></dd>
+
+    <br>
 
 <dt><a href="mathinst/mathinst.php">Mathematical Instruments</a></dt>
     <dd>-<a href="mathinst/straightedge.php"> On the Construction of the Straightedge</a></dd>
