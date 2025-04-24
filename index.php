@@ -21,7 +21,7 @@ Leviticus' Website
 <p>
     My name is Levi Rhoden, and I'm a mechanical engineer and tinkerer. I've spent my life solving problems and building things, both as a hobby and as a profession. I am currently a Mechanical Engineer at Astronics AES, where I design housings for aviation grade electric power distribution equipment. These have to survive long term vibrations, disipate mass amounts of heat, and meet very high standards for quality, production control, and long term survivability. I also run a small buisness, <a href="unlimiteb.com">Unlimiteb.com</a>, with my brother Asa. In addition, I have a ton of hobbies! Model trains, old computers, programing, clocks, leatherworking, carpentry, and <a href="https://knowyourmeme.com/memes/graphic-design-is-my-passion">web design</a>.
 </p><p>
-    If I had a dime for everytime I was working on a project, and found exactly what I was looking for on some html site from the early 2000's, I'd be able to afford a house in Seattle. To that end, I figured it was time to give back to that community. I hope to catalouge and recount some of my projects and the sources that helped make 'em tick. Plus, forcing myself to write stuff down helps me in the future re-discover what I did. 
+    If I had a dime for everytime I was working on a project, and found exactly what I was looking for on some html site from the early 2000's, I'd be able to afford a house in Seattle. To that end, I figured it was time to give back to that community. I hope to catalouge and recount some of my projects and the sources that helped make 'em tick. Plus, forcing myself to write stuff down helps me in the future re-discover what I did, and remember that I actually do stuff sometimes.
 </p>
 
 <h2>
@@ -47,23 +47,16 @@ Leviticus' Website
     <dd>-<a href="crafting/3d_minis.php"> 3D Printing D&D Minis</a></dd>
     <dd>-<a href="crafting/recordplayer.php"> Record Player Battery</a></dd>
     <dd>-<a href="crafting/recordplayer2.php"> Record Player Platter</a></dd>
-    
+    <dd>-<a href="crafting/coco2.php"> [WIP] TRS-80 / Color Computer 2 / "The Tandy"</a></dd>
+    <dd>-<a href="crafting/hpEnvyFix.php">[Needs Photos] HP Envy 13-aqxxxx Retaining Clip</a></dd>
+
     <br>
 
 <dt><a href="cameras/cameras.php">Cameras and Optics</a></dt>
     <dd>-<a href="cameras/pony_135_tuneup.php"> Pony 135</a></dd>
-    <dd>-<a href="cameras/OM-1 Camera.php"> [WIP] OM-1 Camera</a></dd>
-    <dd>-<a href="cameras/penees2.php"> [WIP] Olympus Pen EES-2</a></dd>
-    <hr>
     <dd>-<a href='cameras/developing.php'>How I Develop B&W Film</a></dd>
-    <dd>-<a href="cameras/digichrome.php"> [WIP] Digichrome</a></dd>
     <dd>-<a href="cameras/thinlenssim.php"> Python Thin Lens Simulator</a></dd>
-    
-    <br>
-
-<dt><a href="computers/computers.php">Computers</a></dt>
-    <dd>-<a href="computers/coco2.php"> [WIP] TRS-80 / Color Computer 2 / "The Tandy"</a></dd>
-    <dd>-<a href="computers/hpEnvyFix.php">[Needs Photos] HP Envy 13-aqxxxx Retaining Clip</a></dd>
+    <dd>-<a href="cameras/digichrome.php"> [WIP] Digichrome</a></dd>
 
     <br>
 
@@ -96,6 +89,7 @@ Leviticus' Website
 <dt>Notes on Projects</a></dt>
     <dd>-<a href="notes/triodeNotes.php"> [ON HOLD] Notes on Vacuum Triode Construction </a></dd>
     <dd>-<a href="notes/up!miniNotes.php"> [RETIRED] Notes on Converting an UP! Mini to use Cura </a></dd>
+    <dd>-<a href="notes/c++GameNotes.php"> [RETIRED] Notes C++ gaming, I think </a></dd>
 
     <br>
     
