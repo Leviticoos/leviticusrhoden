@@ -1,0 +1,20 @@
+body {background-color: #EAEABD;padding: 35px}
+h1 {text-align: center; color: #1E064B;}
+h2 {text-align: left; color: #1E064B;}
+h3 {text-align: left; color: #1E064B;}
+p {text-align: justify; color: #1E064B; text-indent:40px;}
+dl {text-align: left; color: #1E064B;}
+dt {text-align: left; color: #1E064B;}
+dd {text-align: left; color: #1E064B;}
+a {color: #1E064B;}
+img {max-width: 100%;
+    display: block;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;}
+iframe {display: block; margin-left: auto; margin-right: auto;}
+figcaption {text-align:center; color: #1E064B; margin-left:25%; margin-right:25%;}
+blockquote {text-align: justify; color: #1E064B;margin: 80px;}
+math {text-align: center; color: #1E064B;margin: 80px; font-size:21px;} 
+address {text-align:center;}
+form {text-align:center;}
