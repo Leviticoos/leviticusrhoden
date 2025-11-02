@@ -101,9 +101,6 @@ We can also look into setting up a domain or subdomain to point towards our True
 </p>
 <img src="photos/dns_settings.jpg" alt="Namecheap dns dashboard" style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
 <br><br>
-<p>
-TODO more directions
-</p>
 <br>
 <br>
 
@@ -185,6 +182,9 @@ The next thing we want to do is open Immich to the wider web, safely, so that we
 <br>
 <br>
 
+<h2>
+Navidrome: Self-Hosted Spotify
+</h2>
 
 <h2>
 Examples of Embedding
