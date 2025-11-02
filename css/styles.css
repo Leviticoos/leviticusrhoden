@@ -7,7 +7,8 @@ dl {text-align: left; color: #1E064B;}
 dt {text-align: left; color: #1E064B;}
 dd {text-align: left; color: #1E064B;}
 a {color: #1E064B;}
-img {max-width: 100%;
+img {max-height: 100px; 
+    max-width: 100px;
     display: block;
     height: auto; 
     margin-left: auto;

@@ -81,6 +81,7 @@ Leviticus' Website
 <dt><a href="website/website.php">Website</a></dt>
     <dd>-<a href="website/example.php"> Example Page</a></dd>
     <dd>-<a href="website/hostingpi.php"> Hosting a Website on a Raspberry Pi</a></dd>
+    <dd>-<a href="website/truenas.php"> Setting Up a TrueNAS Server </a></dd>
     <dd>-<a href="website/othersites.php"> Links</a></dd>
     <dd>-<a href="website/styleguide.php"> Leviticus' Website Styleguide</a></dd>
     
