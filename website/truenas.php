@@ -68,7 +68,7 @@ TrueNAS, the OS
 </h2><p>
 While originally I was looking at using Open Media Vault due to the Pi's limited hardware, with this full rig being set up I can go with good ol' TrueNAS. TrueNAS is pretty simple, if you've ever loaded an OS before on a new computer, it works just like that. We'll follow <a href="https://youtube.com/playlist?list=PL6zQmF2gDqDT7SHyBe7ni1P2S4NzyJpD6&si=BuWS6EHVKaeFxPUd"> this very comprehensive tutorial by ServersatHome </a>, for most of the early stages of this project. <a href="https://youtu.be/cA8fZ-lfgaA?si=Svv1SXjV4_N91UfB">This video</a> goes into the specifics of installing the OS. First, we download <a href="https://www.truenas.com/download-truenas-community-edition/">the TrueNAS Community OS file</a>, then we use <a href="https://etcher.balena.io/">balenaEtcher</a> to format a USB drive as a boot device with the TrueNAS image on it. This will let a computer boot from the USB drive to install the OS. Then, we put the USB into our server computer and turn it on. Before windows/the old OS boots, you will see a black screen with a flash of text on it. That text will tell you what button to press to open the BIOS (usually delete or a function key). You'll probably miss it on the first power on, but reset the computer and spam that button until your BIOS settings are pulled up. This menu is on your computer's motherboard, and gives you more control about the computer itself. You will want to navigate to the boot section, which is where you set which storage device the computer will look at to load an OS. It will be looking at your current boot drive, and we will set it to the USB drive we flashed with TrueNAS. You may need to save before exiting settings. Then, restarting the computer should prompt you with an install wizard for TrueNAS. The video should give you details in how to proceed from there!
 </p><p>
-The next three sections, <i>Running Heedlessly</i>, <i>Networking</i> and <i>Pools, Datasets, etc.</i>, should be followed first (if you're following along). The sections after, like <i>Immich</i> and <i>Minecraft Server</i>, should be able to done in pretty much any order you want, if you want to do them at all.
+The next three sections, <i>Running Headlessly</i>, <i>Networking</i> and <i>Pools, Datasets, etc.</i>, should be followed first (if you're following along). The sections after, like <i>Immich</i> and <i>Minecraft Server</i>, should be able to done in pretty much any order you want, if you want to do them at all.
 </p>
 <br>
 <br>
@@ -151,6 +151,15 @@ It is worth mentioning that this overview of users is bare bones, and from an id
 </p><p>
 With our new user created, we go to file explorer on the computer we want to hook up. Right clicking on the side bar, we will get the option to <b>mount network drive or whateverthehellitsays</b>, which we will click on. 
 </p>
+<br>
+<br>
+
+<h2>
+Tailscale; Accessing our Server from Afar
+</h2><p>
+
+</p>
+<a href="https://tailscale.com/kb/1483/truenas">Tailscale tutorial</a>
 <br>
 <br>
 
