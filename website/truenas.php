@@ -66,7 +66,7 @@ And the computing hardware, for those interested. CPU is a AMD A8-7670K Radeon R
 <h2>
 TrueNAS, the OS
 </h2><p>
-While originally I was looking at using Open Media Vault due to the Pi's limited hardware, with this full rig being set up I can go with good ol' TrueNAS. TrueNAS is pretty simple, if you've ever loaded an OS before on a new computer, it works just like that. We'll follow <a href=""> this very comprehensive tutorial by TODO </a>, for most of the early stages of this project. <a href="">This video</a> goes into the specifics of installing the OS. First, we download <a href="">the TrueNAS scale OS file<\a>, then we use <a href="">this tool</a> to format a USB drive as a boot device with the TrueNAS image on it. This will let a computer boot from the USB drive to install the OS. Then, we put the USB into our server computer and turn it on. Before windows/the old OS boots, you will see a black screen with a flash of text on it. That text will tell you what button to press to open the BIOS (usually delete or a function key). You'll probably miss it on the first power on, but reset the computer and spam that button until your BIOS settings are pulled up. This menu is on your computer's motherboard, and gives you more control about the computer itself. You will want to navigate to the boot section, which is where you set which storage device the computer will look at to load an OS. It will be looking at your current boot drive, and we will set it to the USB drive we flashed with TrueNAS. You may need to save before exiting settings. Then, restarting the computer should prompt you with an install wizard for TrueNAS. The video should give you details in how to proceed from there!
+While originally I was looking at using Open Media Vault due to the Pi's limited hardware, with this full rig being set up I can go with good ol' TrueNAS. TrueNAS is pretty simple, if you've ever loaded an OS before on a new computer, it works just like that. We'll follow <a href="https://youtube.com/playlist?list=PL6zQmF2gDqDT7SHyBe7ni1P2S4NzyJpD6&si=BuWS6EHVKaeFxPUd"> this very comprehensive tutorial by ServersatHome </a>, for most of the early stages of this project. <a href="https://youtu.be/cA8fZ-lfgaA?si=Svv1SXjV4_N91UfB">This video</a> goes into the specifics of installing the OS. First, we download <a href="https://www.truenas.com/download-truenas-community-edition/">the TrueNAS Community OS file</a>, then we use <a href="https://etcher.balena.io/">balenaEtcher</a> to format a USB drive as a boot device with the TrueNAS image on it. This will let a computer boot from the USB drive to install the OS. Then, we put the USB into our server computer and turn it on. Before windows/the old OS boots, you will see a black screen with a flash of text on it. That text will tell you what button to press to open the BIOS (usually delete or a function key). You'll probably miss it on the first power on, but reset the computer and spam that button until your BIOS settings are pulled up. This menu is on your computer's motherboard, and gives you more control about the computer itself. You will want to navigate to the boot section, which is where you set which storage device the computer will look at to load an OS. It will be looking at your current boot drive, and we will set it to the USB drive we flashed with TrueNAS. You may need to save before exiting settings. Then, restarting the computer should prompt you with an install wizard for TrueNAS. The video should give you details in how to proceed from there!
 </p><p>
 The next three sections, <i>Running Heedlessly</i>, <i>Networking</i> and <i>Pools, Datasets, etc.</i>, should be followed first (if you're following along). The sections after, like <i>Immich</i> and <i>Minecraft Server</i>, should be able to done in pretty much any order you want, if you want to do them at all.
 </p>
@@ -74,13 +74,13 @@ The next three sections, <i>Running Heedlessly</i>, <i>Networking</i> and <i>Poo
 <br>
 
 <h2>
-Running Heedlessly
+Running Headlessly
 </h2><p>
 After your TrueNAS computer is set up, you can run it "headlessly," or without a monitor and keyboard. All you have to do is plug it into power and ethernet, and turn it on. To access the TrueNAS software and do anything, you will have to type in the server's IP into your search bar. Now, if you were smart, you would've noted the IP of our TrueNAS system when you had it plugged into a monitor during setup. If not, then you can find it's IP by logging into your router. For example, here is mine. Your server's IP should look something like this.
-</p><quote>
-192.108.6.107 TODO use real
-</quote><p>
-Once you navigate to your server on another computer, you will be prompted for the username and password you set up during the initial install.
+</p><code>
+192.168.0.107
+</code><p>
+You can enter this IP on your browsers address bar, and it will open up your TrueNAS interface. Once you navigate to your server on another computer, you will be prompted for the username and password you set up during the initial install.
 </p>
 <br>
 <br>
@@ -88,21 +88,19 @@ Once you navigate to your server on another computer, you will be prompted for t
 <h2>
 Networking
 </h2><p>
-I'll admit it, setting up the networking stuff itself is my weak point. But, it's worth putting in the effort. <a href="">This video from TODOs playlist</a> goes through creating a thing called a bridge, which is basically an extra, virtual layer between the server's actual port and what converses with the wider internet. We will set that up as br0 per the video. We will also configure the global settings: nameservers to "1.1.1.1" and "8.8.8.8", and global ip to our router's ip, which usually ends in .1.
+I'll admit it, setting up the networking stuff itself is my weak point. But, it's worth putting in the effort. <a href="https://youtu.be/0lzFHySymsU?si=OcZDh3qi88prtMLJ">This video from ServersatHome's playlist</a> goes through creating a thing called a bridge, which is basically an extra, virtual layer between the server's actual port and what converses with the wider internet. We will set that up as br0 per the video. We will also configure the global settings: nameservers to "1.1.1.1" and "8.8.8.8", and global ip to our router's ip, which usually ends in .1.
 </p>
 <img src="photos/global_ip_settings.jpg" alt="Network Settings on my TrueNAS server." style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
 <figcaption>
     It's settings, do I need a caption?
 </figcaption><br><br>
 <p>
-I'm not sure if this is a common problem, or if it's just proof of how bone headed I am with tech, but the global IP is where the server will look to access the internet as a whole. It is not the IP of the server. I had it set to my server's IP for quite awhile, and thus was unable to download apps for TrueNAS. Basically, it was asking itself for a GitHub repo, instead of the internet at large. So global IP should be the router that will give your server access to the whole of the internet, which is why I mentioned it usually ends in 1.
+I'm not sure if this is a common problem, or if it's just proof of how bone headed I am with tech, but the global IP/Default Route is where the server will look to access the internet as a whole. It is not the IP of the server. I had it set to my server's IP for quite awhile, and thus was unable to download apps for TrueNAS. Basically, it was asking itself for a GitHub repo, instead of the internet at large. So global IP should be the router that will give your server access to the whole of the internet, which is why I mentioned it usually ends in 1.
 </p><p>
-We can also look into setting up a domain or subdomain to point towards our TrueNAS. This step is not necessary, but it makes it so much more fun. For example, my TrueNAS page, which used to be an IP in the search bar, is now <i>server.leviticusrhoden.com</i>. Nice try, but that address only works on my local network. This step mainly requires going to your domain's DNS settings, and setting up subdomains (the <i>server.</i> before the main domain <i>leviticusrhoden.com</i>) to point towards your local addresses. We can also use it down the line, say directing <i>photos.leviticusrhoden.com</i> toward our Immich server. Your domain registrar may have a different look, but this is what my namecheap DNS dashboard looks like.
+We can also look into setting up a domain or subdomain to point towards our TrueNAS. This step is not necessary, but it makes it so much more fun. For example, my TrueNAS page, which used to be an IP in the search bar, is now <i>server.leviticusrhoden.com</i>. Nice try, but that address only works on my local network. This step mainly requires going to your domain's DNS settings, and setting up subdomains (the <i>server.</i> before the main domain <i>leviticusrhoden.com</i>) to point towards your local addresses. We can also use it down the line, say directing <i>photos.leviticusrhoden.com</i> toward our Immich server (TBD). Your domain registrar may have a different look, but this is what my bluehost DNS settings looks like, and what settings I gave it.
 </p>
-<img src="./website/photos/namecheap_dns.jpg" alt="Namecheap dns dashboard" style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
-<figcaption>
-    Why would I add a caption here? What could I add?
-</figcaption><br><br>
+<img src="photos/dns_settings.jpg" alt="Namecheap dns dashboard" style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
+<br><br>
 <p>
 TODO more directions
 </p>
@@ -114,19 +112,19 @@ Pools, Datasets, etc.
 </h2><p>
 Alright, with TrueNAS Scale loaded onto our 128GB SSD, it's time to set up the other drives in a RAID configuration. I won't explain the RAID system here, but <a href="">this site</a> gives a great overview. We will set up our two 3TB HHDs as RAID1, which means we will have two copies of all our data, and if one hard drive fails we won't be up the creek. This is called a pool, which TrueNAS treats like a single drive. We can store things on a pool, and TrueNAS will store it on the drives within that pool according to the RAID configuration.
 </p>
-<img src="./website/photos/pool.jpg" alt="The settings we used to create a RAID 1 pool." style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
+<img src="photos/pool.jpg" alt="The settings we used to create a RAID 1 pool." style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
 <figcaption>
-    Come on in, the water's fine!
+    Get it? Because I named the server BossNAS, and Lake Paonga is where Ohto Gunga is?
 </figcaption><br><br>
 <p>
 And while we are here, it would be a good idea to set up some datasets. While pools are our "drives", datasets are our "folders". Most things we will do on this server will require their own dataset. For example, a network drive is associated with one dataset, and our future image storage will be on another. We don't have to get too in the weeds now, but on my first run-through of building a server I learned how messy stuff gets if you don't set up sub-datasets. You can use general names like "apps" and "drives", or we can come up with a fun codename system. My buddy named top level datasets with the names of birds that begin with C, for example. My wife christened my server as "BossNAS," in honor of the best gungan, so we could run through some starwars planets.
 </p>
-<img src="./website/photos/datasets.jpg" alt="The (file?) structure of our pool." style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
+<img src="photos/datasets.jpg" alt="The (file?) structure of our pool." style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
 <figcaption>
-    Can you belive I'm married?
+    Can you belive I'm married? And that she came up with the name!?
 </figcaption><br><br>
 <p>
-Personally, I set up a few parent datasets in our pool. One to house network drives: One for media like photos, videos, and music: an apps dataset that we can stuff video game servers and whatever simulations I mess around with: and possibly a dataset for network setup, things like VPNs.
+Notice that the top is our RAID pool, Paonga, and our datasets are inside that drive. How you set up datasets is up to you and your predilictions. Personally, I set up a few parent datasets in our pool. One to house network drives (Naboo): One for media like photos, videos, and music (Coruscant): an apps dataset that we can stuff video game servers and whatever simulations I mess around with (Mustafar): and possibly a dataset for network setup, things like VPNs.
 </p>
 <br>
 <br>
