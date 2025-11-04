@@ -18,7 +18,7 @@ My Homelab/TrueNAS server
 <a href="website.php">Website Topic Page</a>
 </address>
 
-<img src="../photos/pikachu_construction.gif" width="300px" class="center">
+<img src="../photos/pikachu_construction.gif" width="500px" class="center">
 
 <h2>
 Introduction
@@ -61,7 +61,13 @@ Then we have an interesting question, what storage drives do we want? It comes w
 </figcaption><br><br>
 <p>
 And the computing hardware, for those interested. CPU is a AMD A8-7670K Radeon R7 TODO more specs. An important thing to note is that the operating system needs its own drive to load onto, and that drive can't be used for any data. That is, if I used one of the 3TB drives to load TrueNAS onto, I couldn't use it in raid to store my photos. For that reason, I recommend getting a 128GB SSD. These can be found under $20 on amazon with only a cursory look, so worth it to have a speedy OS drive, and it saves your big hard drives for actual data.
-</p><br><br>
+</p>
+<img src="photos/making_the_pc.JPG" alt="A fresh faced Levi, circa. TODO, with all the parts to build the computer that 10 years later would become my TrueNAS server." style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
+<figcaption>
+    Time waits for Gnome Ann
+</figcaption><br><br>
+<br>
+<br>
 
 <h2>
 TrueNAS, the OS
@@ -88,7 +94,7 @@ You can enter this IP on your browsers address bar, and it will open up your Tru
 <h2>
 Networking
 </h2><p>
-I'll admit it, setting up the networking stuff itself is my weak point. But, it's worth putting in the effort. <a href="https://youtu.be/0lzFHySymsU?si=OcZDh3qi88prtMLJ">This video from ServersatHome's playlist</a> goes through creating a thing called a bridge, which is basically an extra, virtual layer between the server's actual port and what converses with the wider internet. We will set that up as br0 per the video. We will also configure the global settings: nameservers to "1.1.1.1" and "8.8.8.8", and global ip to our router's ip, which usually ends in .1.
+I'll admit it, setting up the networking stuff itself is my weak point. But, it's worth putting in the effort. <a href="https://youtu.be/0lzFHySymsU?si=OcZDh3qi88prtMLJ">This video from ServersatHome's playlist</a> goes through creating a thing called a bridge, which is basically an extra, virtual layer between the server's actual port and what converses with the wider internet TODO fact check. We will set that up as br0 per the video. We will also configure the global settings: nameservers to "1.1.1.1" and "8.8.8.8", and global ip to our router's ip, which usually ends in .1.
 </p>
 <img src="photos/global_ip_settings.jpg" alt="Network Settings on my TrueNAS server." style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
 <figcaption>
@@ -111,7 +117,7 @@ Alright, with TrueNAS Scale loaded onto our 128GB SSD, it's time to set up the o
 </p>
 <img src="photos/pool.jpg" alt="The settings we used to create a RAID 1 pool." style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
 <figcaption>
-    Get it? Because I named the server BossNAS, and Lake Paonga is where Ohto Gunga is?
+    Get it? Because my wife named the server BossNAS, and Lake Paonga is where Ohto Gunga is?
 </figcaption><br><br>
 <p>
 And while we are here, it would be a good idea to set up some datasets. While pools are our "drives", datasets are our "folders". Most things we will do on this server will require their own dataset. For example, a network drive is associated with one dataset, and our future image storage will be on another. We don't have to get too in the weeds now, but on my first run-through of building a server I learned how messy stuff gets if you don't set up sub-datasets. You can use general names like "apps" and "drives", or we can come up with a fun codename system. My buddy named top level datasets with the names of birds that begin with C, for example. My wife christened my server as "BossNAS," in honor of the best gungan, so we could run through some starwars planets.
@@ -154,11 +160,35 @@ With our new user created, we go to file explorer on the computer we want to hoo
 <h2>
 Tailscale; Accessing our Server from Afar
 </h2><p>
-
+Alrighty, lets set up a way to access our server from WiFi networks that are not our home networks. Said another way, lets talk to the server when not on the same local network as it. To do this, we will make a tailscale network. Tailscale is a VPN that essentially creates a little virtual network that everything is on, I think. The end result, however, is that the machines on the tailscale network can "see" each other as if they were on the same network. This means we are able to access our network drives and apps as if we were at home!
+</p><p>
+Setting up Tailscale is pretty easy, and they even <a href="https://tailscale.com/kb/1483/truenas#route-tailnet-traffic-through-truenas">have a tutorial on their website</a>. I won't go into too much detail, but it boils down to a few steps. Make a tailscale account, generate an auth key, download tailscale on your NAS server, give that server the auth key, and blam! That's just about it. If you enter the IP tailnet gives for your NAS server on any computer connected to the tailnet, you will be able to access it. 
+</p><p>
+Now, the next thing to do is add a subnet route to your NAS server. Since tailnet gives a new IP to the NAS server, your links will be different for on your home WiFi and on another WiFi. That would be annoying enough if it were just the server, but that will also impact server apps, network drives, pretty much everything. So, in order to have your Server reachable by the same IP address, we have to change some settings. First, in the Tailscale app on our server, we need to add an advertized route, and assign it the IP of our server on our local network. The one weird thing is we have to end it with a <i>/32</i>, instead of the <i>/24</i> it is usually ended with.
+</p>
+<img src="photos/tailscale_same_ip_setting.jpg" alt="TODO" style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
+<figcaption>
+    Note the /32, and don't ask me why.
+</figcaption><br><br>
+<p>
+After that, we have to go to the Tailscale website and add this route to our Server. Since we set it to be advertized by the server, Tailscale should see it, and all we have to do is check the box next to said IP.
+</p>
+<img src="photos/tailscale_subnet_route.jpg" alt="TODO" style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
+<figcaption>
+    Ignore the key expiry warning.
+</figcaption><br><br>
+<p>
+And that's it for Tailscale! It's not as clean as reverse proxy/https, but it allows you to access everything remotely. You can also log onto the Tailscale network like a VPN, and that will let you use your server for apps. The immich app, for example, has to be pointed to your immich instant. And if your phone is always on the Tailscale VPN, it will always be able to find it. TODO this conclusion sucks ass.
 </p>
 <a href="https://tailscale.com/kb/1483/truenas">Tailscale tutorial</a>
 <br>
 <br>
+
+<h2>
+Putting the <i>s</i> in <i>https</i>
+</h2><p>
+Tailscale is great, it lets us do most of what we need to on our server from anywhere with an internet connection. But, some things want more than an IP address, they want a certified server(tm). The main one I ran into was Bitwarden on my iphone. It kept throwing errors until I was telling it to go to a .
+</p>
 
 <h2>
 Immich
@@ -185,6 +215,42 @@ The next thing we want to do is open Immich to the wider web, safely, so that we
 <h2>
 Navidrome: Self-Hosted Spotify
 </h2>
+<p>
+When my dad gifted me the computer, it still had all of our family data on it. Photos, movies, and coolest of all, music. So, with a wealth of mp3s, I figured I had to do something more than just place them in a folder somewhere. Enter, Navidrome. It's an open source, self hosted music streaming platform. When you listen to spotify, the music you are listening to is not on your device (unless you download it). So your phone goes to the spotify server, requests a song, and spotify then rustles it up and sends it in small chunks to your phone. But, there is no reason you can't have a computer in your house serve the same function. The Navidrome app on BossNAS works much the same, except the music library it's pulling from is music that I own and have stored on the server. 
+</p><p>
+Some of you think this idea is cool in and of itself, and this paragraph is not for you. But some people will hear this and go "but, spotify does it better and has a ton of music," and you'd be right. I don't think this sort of thing is what everyone wants to do. But as we march into the void of not owning anything digitally, I like the idea of owning at least some of my music. Plus, as streaming services raise their prices and, more importantly, pay artists less and less, this is a great way to get back at them. I can take the $17 a month for Apple Music and instead spend it on bandcamp, supporting artists way more directly. Ok, with that caveat out of the way, hopefully you're willing to come along on the journey, or at least skip this section without sending me your contrarian comments.
+</p><p>
+Alright, let's get into this one. 
+</p><h3>
+Installing Navidrome
+</h3><p>
+This one is pretty easy, although it can still present errors in installing and running if permisions are not set correctly. Permisions are important or whatever, but hell if I fully understand them yet. We can install Navidrome from the TrueNAS app repository, so a pretty routine install. We will need two datasets for Navidrome (one for data/music, and one for postgresdata that I assume is app settings but actually do not know), and we will make them standalone datasets, not the hidden ix ones. TODO, discuss explicit vs IX datasets in the datasets section. 
+</p><h3>
+Orginizing Music
+</h3><p>
+Now this part is a little less intuitive, but it's good to know ahead of time. Navidrome is different than immich. While immich lets you drag and drop photos, and it takes care of the file structure, navidrome does not touch your files at all. In fact, it can't accept new files either. What you need to do is turn the TrueNAS dataset (that you told Navidrome to use for it's data) into a shared drive. That way, you can use your computer's file manager to upload your MP3 files. I named my network drive music. Then, we make two folders, one <i>unsorted</i> and one <i>library</i>. Since my mp3s are coming from various sources, the files are messy. Both in terms of the file structure and of the metadata of the songs. I want to have them sorted by album, as well as make sure that they have the correct artist, title, and album art. 
+</p>
+<IMAGE OF HELL FILE STRUCTURE, MAYBE?>
+<p>
+And while this seems like a hard task, I have good news! For some reason, humanity has very robust databases of music that can be used to match up a random MP3 with it's associated metadata. Why? Beats me, but it does save my butt! This is why I created an "unsorted" folder for our music, so that we can take the unsorted music, compare it to those databases with a program, and then use the new information from said database to sort the music nicely into the "library" folder, while also adding any missing metadata. I used <a href="https://picard.musicbrainz.org/">musicbrainz's Picard program</a> to do this. It's a free download that uses the musicbrainz database to add that missing metadata to your files. Sure, overkill for importing your perfectly curated ripped CDs section. But for that mp3 file with a gibberish name that you got sent over discord? This will pretty it up for us. 
+</p><p>
+Now, to use Picard, I watched <a href="https://www.youtube.com/watch?v=aTjlb3vmHSg">this video that goes over the basics</a>, so that I knew what buttons to press to use it at all. Then we follow <a href="https://www.thedreaming.org/2020/11/22/musicbrainz-picard/">this blog post</a> on how to configure TODO what
+</p>
+<IMAGE OF THE CONFIGS>
+<p>
+Then, we just run the "fingerprint" option, which uses exsistnig metadata to try and complete the picture. This will work on some files, but not all, so we will then run "scan" on the remaining, unfiled songs to see if it can find a match for the mp3 file itself. After doing this, there will still be some unidentified songs. I'm fine calling those a wash if you are, so we select all the songs on both sides (catagorized and not catagorized) and hit save. If we set the configuration up correctly, this will save our metadata filled music to that <i>library</i> folder.
+</p><h3>
+Hitting the Road
+</h3><p>
+Navidrome is an awesome server app, but it is lacking in terms of being a nice piece of software to use on my computer or phone. So, now that we have our library set up and being hosted, it's time to turn our attention to how we will access this server. We have many options for this, <a href="">even Navidrome themselves have a list of apps</a>. I won't go into a ton of details here, each app requires you to sign in with your Navidrome username and password, as well as the server IP your TrueNAS is on. If you wan't that to work outside your WiFi, check out the Network 2 section. For my iPhone, I use <a href="">Arpeggi</a>, a beta app that has a very slick UI that is heavily based on Apple Music. Say what you will about apple, but UI athstetic is definatly a strong suite of theirs. On my computers, I like to use dedicated applications and not browser based services, if possible. 
+
+
+
+
+
+
+
+
 
 <h2>
 Examples of Embedding
