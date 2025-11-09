@@ -189,6 +189,11 @@ Putting the <i>s</i> in <i>https</i>
 </h2><p>
 Tailscale is great, it lets us do most of what we need to on our server from anywhere with an internet connection. But, some things want more than an IP address, they want a certified server(tm). The main one I ran into was Bitwarden on my iphone. It kept throwing errors until I was telling it to go to a .
 </p>
+<h3>
+Setting up Caddy
+</h3><p>
+Our first step is setting up Caddy, a program to help handle requests to our server from a domain. Basically, I'll be more formerly setting up the server.leviticusrhoden.com link to look at my server. I followed Dan, <a href="https://wiki.familybrown.org/en/fester/configure-apps/other/caddy">and his kick ass tutorial</a>.
+</p>
 
 <h2>
 Immich
