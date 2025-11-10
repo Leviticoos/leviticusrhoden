@@ -185,10 +185,21 @@ And that's it for Tailscale! It's not as clean as reverse proxy/https, but it al
 <br>
 
 <h2>
+Reverse Proxy, with Cloudflare, NGINX, and Pi-Hole
+</h2><p>
+This section is going to take a little introduction. First, networking is very confusing, even more so if you are following a tutorial rather than learning the theory. Because it's how I think, we will be starting with some theory work. Hopefully, that gives us a framework to add all the necessary programs, and understand what they are doing, and comunicating to each other. Two, I have my domain registered on NameCheap, as it's, well, cheap. However, I transfered DNS work to cloudflare, as it is both free and the most popular DNS service used for homelabing. If you want to try and use DNS from namecheap or another registrar, it should work. But, I couldn't get namecheap to work after quite a few hours, so be warned it's a path less traveled for a reason.
+</p><h3>
+Paint Me, Like One Of Your French Networks!
+</h3>
+
+<h2>
 Putting the <i>s</i> in <i>https</i>
 </h2><p>
-Tailscale is great, it lets us do most of what we need to on our server from anywhere with an internet connection. But, some things want more than an IP address, they want a certified server(tm). The main one I ran into was Bitwarden on my iphone. It kept throwing errors until I was telling it to go to a .
-</p>
+Tailscale is great, it lets us do most of what we need to on our server from anywhere with an internet connection. But, some things want more than an IP address, they want a certified server(tm). The main one I ran into was Bitwarden on my iphone. It kept throwing errors when I told it I was self hosting a password vault on a lowley http:// address. Unfortunatley, I have never been good at keeping track of passwords, so setting this up was very high on my list. Very well, into the hell that is networking.
+</p><p>
+So, what do we need to get a SSL, or a certificate that will let our adresses be a https, convincing browsers somehow it's more secure? Alright, I'm sure it does something. But damn if it makes any sense to me! <a href="https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/">This article by Cloudflare</a> seems to explain it well enough. And speaking of cloudflare, they are who we will use for our adress' DNS, or domain name server. 
+</p><p>
+I have spent a long time trying to digest what the 
 <h3>
 Setting up Caddy
 </h3><p>
