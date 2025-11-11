@@ -103,7 +103,7 @@ I'll admit it, setting up the networking stuff itself is my weak point. But, it'
 <p>
 I'm not sure if this is a common problem, or if it's just proof of how bone headed I am with tech, but the global IP/Default Route is where the server will look to access the internet as a whole. It is not the IP of the server. I had it set to my server's IP for quite awhile, and thus was unable to download apps for TrueNAS. Basically, it was asking itself for a GitHub repo, instead of the internet at large. So global IP should be the router that will give your server access to the whole of the internet, which is why I mentioned it usually ends in 1.
 </p><p>
-We can also look into setting up a domain or subdomain to point towards our TrueNAS. This step is not necessary, but it makes it so much more fun. For example, my TrueNAS page, which used to be an IP in the search bar, is now <i>server.leviticusrhoden.com</i>. Nice try, but that address only works on my local network. This step mainly requires going to your domain's DNS settings, and setting up subdomains (the <i>server.</i> before the main domain <i>leviticusrhoden.com</i>) to point towards your local addresses. We can also use it down the line, say directing <i>photos.leviticusrhoden.com</i> toward our Immich server (TBD). Your domain registrar may have a different look, but this is what my bluehost DNS settings looks like, and what settings I gave it.
+We can also look into setting up a domain or subdomain to point towards our TrueNAS. This step is not necessary, but it makes it so much more fun. For example, my TrueNAS page, which used to be an IP in the search bar, is now <i>server.leviticusrhoden.com</i>. Nice try, but that address only works on my local network. This step mainly requires going to your domain's DNS settings, and setting up subdomains (the <i>server.</i> before the main domain <i>leviticusrhoden.com</i>) to point towards your local addresses. We can also use it down the line, say directing <i>photos.leviticusrhoden.com</i> toward our Immich server (TBD). Your domain registrar may have a different look, but this is what my bluehost DNS settings looks like, and what settings I gave it. TODO remove this section?
 </p>
 <img src="photos/dns_settings.jpg" alt="Namecheap dns dashboard" style="display: block; margin-left: auto; margin-right: auto; max-height: 500px; max-width: 500px;">
 <br><br>
@@ -160,7 +160,7 @@ With our new user created, we go to file explorer on the computer we want to hoo
 <h2>
 Tailscale; Accessing our Server from Afar
 </h2><p>
-Alrighty, lets set up a way to access our server from WiFi networks that are not our home networks. Said another way, lets talk to the server when not on the same local network as it. To do this, we will make a tailscale network. Tailscale is a VPN that essentially creates a little virtual network that everything is on, I think. The end result, however, is that the machines on the tailscale network can "see" each other as if they were on the same network. This means we are able to access our network drives and apps as if we were at home!
+Alrighty, lets set up a way to access our server from WiFi networks that are not our home networks. Said another way, lets talk to the server when not on the same local network. To do this, we will make a tailscale network. Tailscale is a VPN that essentially creates a little virtual network that everything is on, I think. The end result, however, is that the machines on the tailscale network can "see" each other as if they were on the same network. This means we are able to access our network drives and apps as if we were at home!
 </p><p>
 Setting up Tailscale is pretty easy, and they even <a href="https://tailscale.com/kb/1483/truenas#route-tailnet-traffic-through-truenas">have a tutorial on their website</a>. I won't go into too much detail, but it boils down to a few steps. Make a tailscale account, generate an auth key, download tailscale on your NAS server, give that server the auth key, and blam! That's just about it. If you enter the IP tailnet gives for your NAS server on any computer connected to the tailnet, you will be able to access it. 
 </p><p>
@@ -178,7 +178,7 @@ After that, we have to go to the Tailscale website and add this route to our Ser
     Ignore the key expiry warning.
 </figcaption><br><br>
 <p>
-And that's it for Tailscale! It's not as clean as reverse proxy/https, but it allows you to access everything remotely. You can also log onto the Tailscale network like a VPN, and that will let you use your server for apps. The immich app, for example, has to be pointed to your immich instant. And if your phone is always on the Tailscale VPN, it will always be able to find it. TODO this conclusion sucks ass.
+And that's it for Tailscale! It's not as clean as reverse proxy/https, but it allows you to access everything remotely. This is super handy for apps that require a connection to the server to function. The immich app, for example, has to be pointed to your immich instant. And if your phone is always on the Tailscale VPN, it will always be able to find it. This is also a great progression step, as even though we have some work left to do for peak remote access, we can in fact work on the server while at a cafe.
 </p>
 <a href="https://tailscale.com/kb/1483/truenas">Tailscale tutorial</a>
 <br>
@@ -187,15 +187,25 @@ And that's it for Tailscale! It's not as clean as reverse proxy/https, but it al
 <h2>
 Reverse Proxy, with Cloudflare, NGINX, and Pi-Hole
 </h2><p>
-This section is going to take a little introduction. First, networking is very confusing, even more so if you are following a tutorial rather than learning the theory. Because it's how I think, we will be starting with some theory work. Hopefully, that gives us a framework to add all the necessary programs, and understand what they are doing, and comunicating to each other. Two, I have my domain registered on NameCheap, as it's, well, cheap. However, I transfered DNS work to cloudflare, as it is both free and the most popular DNS service used for homelabing. If you want to try and use DNS from namecheap or another registrar, it should work. But, I couldn't get namecheap to work after quite a few hours, so be warned it's a path less traveled for a reason.
+Tailscale is great, it lets us do most of what we need to on our server from anywhere with an internet connection. But, some things want more than an IP address, they want a certified server(tm). The main one I ran into was Bitwarden on my iphone. It kept throwing errors when I told it I was self hosting a password vault on a lowley http:// address. Unfortunatley, I have never been good at keeping track of passwords, so setting this up was very high on my list. Very well, into the hell that is networking.
 </p><h3>
 Paint Me, Like One Of Your French Networks!
-</h3>
+</h3><p>
+In the below, high quality image I threw together, we can follow the path computers and phones take to reach our server. For computers that are not on our local WiFi, they go to Cloudflare to get the IP address of our server. This makes Cloudflare our DNS, or Domain Name Service, that converts a url to an IP. However, since cloudflare is public, we don't want to put every url on it. For instance, I have a navidrome.server.leviticusrhoden.com DNS, but I don't want cloudflare to be advertising which port is hosting which app on the public internet. So, we have a second DNS that runs just on my local WiFi, called Pi Hole
+</p><h3>
+Cloudflare
+</h3><p>
+Also, I have my domain registered on NameCheap, as it's, cheap. However, I transfered DNS work to cloudflare, as it is both free and the most popular DNS service used for homelabing. If you want to try and use DNS from namecheap or another registrar, it should work. But, I couldn't get namecheap to work after quite a few hours, so be warned it's a path less traveled for a reason.
+</p>
+<a href="https://fullmetalbrackets.com/">NOTE</a>
+<h3>
+Making Cloudflare our Home Base
+</h3><p>
+Alright, now it's time for us to actually set this up. Our first job will be to 
 
 <h2>
 Putting the <i>s</i> in <i>https</i>
 </h2><p>
-Tailscale is great, it lets us do most of what we need to on our server from anywhere with an internet connection. But, some things want more than an IP address, they want a certified server(tm). The main one I ran into was Bitwarden on my iphone. It kept throwing errors when I told it I was self hosting a password vault on a lowley http:// address. Unfortunatley, I have never been good at keeping track of passwords, so setting this up was very high on my list. Very well, into the hell that is networking.
 </p><p>
 So, what do we need to get a SSL, or a certificate that will let our adresses be a https, convincing browsers somehow it's more secure? Alright, I'm sure it does something. But damn if it makes any sense to me! <a href="https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/">This article by Cloudflare</a> seems to explain it well enough. And speaking of cloudflare, they are who we will use for our adress' DNS, or domain name server. 
 </p><p>
